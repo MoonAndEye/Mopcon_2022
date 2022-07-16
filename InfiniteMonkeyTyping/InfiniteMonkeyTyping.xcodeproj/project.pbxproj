@@ -14,6 +14,7 @@
 		9B1EEC002882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEBFF2882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.swift */; };
 		9B1EEC022882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */; };
 		9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */; };
+		9B1EEC132883032C003D05F5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC122883032C003D05F5 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9B1EEBFF2882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingUITests.swift; sourceTree = "<group>"; };
 		9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingContentView.swift; sourceTree = "<group>"; };
+		9B1EEC122883032C003D05F5 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +132,18 @@
 		9B1EEC0E2882AC1F003D05F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B1EEC1128830307003D05F5 /* UITextView */,
 				9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9B1EEC1128830307003D05F5 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EEC122883032C003D05F5 /* TextView.swift */,
+			);
+			path = UITextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1EEC132883032C003D05F5 /* TextView.swift in Sources */,
 				9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */,
 				9B1EEBE52882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift in Sources */,
 			);
