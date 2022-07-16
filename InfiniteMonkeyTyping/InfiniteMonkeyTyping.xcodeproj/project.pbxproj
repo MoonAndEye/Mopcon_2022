@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9B1EEBE52882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEBE42882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift */; };
-		9B1EEBE72882ABC6003D05F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEBE62882ABC6003D05F5 /* ContentView.swift */; };
 		9B1EEBE92882ABC8003D05F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1EEBE82882ABC8003D05F5 /* Assets.xcassets */; };
 		9B1EEBEC2882ABC8003D05F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1EEBEB2882ABC8003D05F5 /* Preview Assets.xcassets */; };
 		9B1EEBF62882ABC8003D05F5 /* InfiniteMonkeyTypingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEBF52882ABC8003D05F5 /* InfiniteMonkeyTypingTests.swift */; };
 		9B1EEC002882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEBFF2882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.swift */; };
 		9B1EEC022882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */; };
+		9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9B1EEBE12882ABC6003D05F5 /* InfiniteMonkeyTyping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteMonkeyTyping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1EEBE42882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingApp.swift; sourceTree = "<group>"; };
-		9B1EEBE62882ABC6003D05F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B1EEBE82882ABC8003D05F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1EEBEB2882ABC8003D05F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B1EEBF12882ABC8003D05F5 /* InfiniteMonkeyTypingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteMonkeyTypingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		9B1EEBFB2882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteMonkeyTypingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1EEBFF2882ABC8003D05F5 /* InfiniteMonkeyTypingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingUITests.swift; sourceTree = "<group>"; };
 		9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				9B1EEBE42882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift */,
-				9B1EEBE62882ABC6003D05F5 /* ContentView.swift */,
+				9B1EEC0E2882AC1F003D05F5 /* Views */,
 				9B1EEBE82882ABC8003D05F5 /* Assets.xcassets */,
 				9B1EEBEA2882ABC8003D05F5 /* Preview Content */,
 			);
@@ -125,6 +125,14 @@
 				9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */,
 			);
 			path = InfiniteMonkeyTypingUITests;
+			sourceTree = "<group>";
+		};
+		9B1EEC0E2882AC1F003D05F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1EEBE72882ABC6003D05F5 /* ContentView.swift in Sources */,
+				9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */,
 				9B1EEBE52882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

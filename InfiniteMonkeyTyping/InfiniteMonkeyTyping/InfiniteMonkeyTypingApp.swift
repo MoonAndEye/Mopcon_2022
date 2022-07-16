@@ -11,7 +11,7 @@ import SwiftUI
 struct InfiniteMonkeyTypingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InfiniteMonkeyTypingContentView()
         }
     }
 }
