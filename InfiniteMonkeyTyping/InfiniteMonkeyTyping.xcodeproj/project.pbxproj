@@ -15,6 +15,8 @@
 		9B1EEC022882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */; };
 		9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */; };
 		9B1EEC132883032C003D05F5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC122883032C003D05F5 /* TextView.swift */; };
+		9B1EEC1728830A32003D05F5 /* TypingMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC1628830A32003D05F5 /* TypingMonkey.swift */; };
+		9B1EEC1A28830B3F003D05F5 /* TypingResultJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC1928830B3F003D05F5 /* TypingResultJudge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		9B1EEC012882ABC8003D05F5 /* InfiniteMonkeyTypingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B1EEC0F2882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingContentView.swift; sourceTree = "<group>"; };
 		9B1EEC122883032C003D05F5 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		9B1EEC1628830A32003D05F5 /* TypingMonkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingMonkey.swift; sourceTree = "<group>"; };
+		9B1EEC1928830B3F003D05F5 /* TypingResultJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingResultJudge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				9B1EEBE42882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift */,
+				9B1EEC1428830A1E003D05F5 /* Models */,
 				9B1EEC0E2882AC1F003D05F5 /* Views */,
 				9B1EEBE82882ABC8003D05F5 /* Assets.xcassets */,
 				9B1EEBEA2882ABC8003D05F5 /* Preview Content */,
@@ -144,6 +149,31 @@
 				9B1EEC122883032C003D05F5 /* TextView.swift */,
 			);
 			path = UITextView;
+			sourceTree = "<group>";
+		};
+		9B1EEC1428830A1E003D05F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EEC1828830B31003D05F5 /* TypingResultJudge */,
+				9B1EEC1528830A22003D05F5 /* TypingMonkey */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B1EEC1528830A22003D05F5 /* TypingMonkey */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EEC1628830A32003D05F5 /* TypingMonkey.swift */,
+			);
+			path = TypingMonkey;
+			sourceTree = "<group>";
+		};
+		9B1EEC1828830B31003D05F5 /* TypingResultJudge */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EEC1928830B3F003D05F5 /* TypingResultJudge.swift */,
+			);
+			path = TypingResultJudge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1EEC1A28830B3F003D05F5 /* TypingResultJudge.swift in Sources */,
 				9B1EEC132883032C003D05F5 /* TextView.swift in Sources */,
 				9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */,
 				9B1EEBE52882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift in Sources */,
+				9B1EEC1728830A32003D05F5 /* TypingMonkey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
