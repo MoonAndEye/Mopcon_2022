@@ -12,6 +12,7 @@ struct InfiniteMonkeyTypingApp: App {
     var body: some Scene {
         WindowGroup {
             InfiniteMonkeyTypingContentView()
+//            Content()
         }
     }
 }

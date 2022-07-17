@@ -78,9 +78,7 @@ struct InfiniteMonkeyTypingContentView: View {
         }
         .padding()
     }
-}
-// MARK: - Logic part
-extension InfiniteMonkeyTypingContentView {
+    
     private func stepperIncrease() {
         monkeyTyperCount += 1
     }
