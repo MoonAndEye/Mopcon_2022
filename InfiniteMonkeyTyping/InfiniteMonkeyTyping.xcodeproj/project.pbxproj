@@ -18,6 +18,7 @@
 		9B1EEC1C28830CAF003D05F5 /* TypingMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC1B28830CAF003D05F5 /* TypingMonkeyTests.swift */; };
 		9B1EEC1D28830CE0003D05F5 /* TypingMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC1628830A32003D05F5 /* TypingMonkey.swift */; };
 		9B1EEC1F288313BE003D05F5 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EEC1E288313BE003D05F5 /* Content.swift */; };
+		9BADE7F628AE7D4B005C62C1 /* IMLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADE7F528AE7D4B005C62C1 /* IMLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		9B1EEC1928830B3F003D05F5 /* TypingResultJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingResultJudge.swift; sourceTree = "<group>"; };
 		9B1EEC1B28830CAF003D05F5 /* TypingMonkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingMonkeyTests.swift; sourceTree = "<group>"; };
 		9B1EEC1E288313BE003D05F5 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		9BADE7F528AE7D4B005C62C1 /* IMLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				9B1EEBE42882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift */,
+				9BADE7F428AE7D3E005C62C1 /* Logger */,
 				9B1EEC1428830A1E003D05F5 /* Models */,
 				9B1EEC0E2882AC1F003D05F5 /* Views */,
 				9B1EEBE82882ABC8003D05F5 /* Assets.xcassets */,
@@ -151,6 +154,14 @@
 				9B1EEC1928830B3F003D05F5 /* TypingResultJudge.swift */,
 			);
 			path = TypingResultJudge;
+			sourceTree = "<group>";
+		};
+		9BADE7F428AE7D3E005C62C1 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				9BADE7F528AE7D4B005C62C1 /* IMLogger.swift */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				9B1EEC132883032C003D05F5 /* TextView.swift in Sources */,
 				9B1EEC102882AC78003D05F5 /* InfiniteMonkeyTypingContentView.swift in Sources */,
 				9B1EEBE52882ABC6003D05F5 /* InfiniteMonkeyTypingApp.swift in Sources */,
+				9BADE7F628AE7D4B005C62C1 /* IMLogger.swift in Sources */,
 				9B1EEC1728830A32003D05F5 /* TypingMonkey.swift in Sources */,
 				9B1EEC1F288313BE003D05F5 /* Content.swift in Sources */,
 			);

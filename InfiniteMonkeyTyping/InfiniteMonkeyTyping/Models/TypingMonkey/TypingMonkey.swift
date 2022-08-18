@@ -13,7 +13,7 @@ class TypingMonkey {
     
     private var alphabet: [String] {
         let characters = "abcdefghijklmnopqrstuvwxyz"
-        var chars: [String] = .init()
+        var chars: [String] = []
         for char in characters {
             chars.append(String(char))
         }
