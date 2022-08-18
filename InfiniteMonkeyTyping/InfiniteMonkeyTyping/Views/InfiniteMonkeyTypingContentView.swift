@@ -54,6 +54,7 @@ struct InfiniteMonkeyTypingContentView: View {
                 .padding()
             
             TextField("請輸入目標", text: $targetText)
+                .autocapitalization(.none)
                 .padding()
                 .textFieldStyle(.roundedBorder)
             
@@ -134,6 +135,12 @@ struct InfiniteMonkeyTypingContentView: View {
                     currentTargetIndex += 1
                     checkIsFinish()
                 }
+                
+                // 字串完全比對，目前三個字沒成功過，機率太低
+//                if match(vocabulary: targetText) {
+//                    updateLog("\n~~成功比對~~\(targetText)\n")
+//                    stopMonkeysTyping()
+//                }
             }
     }
     
@@ -146,13 +153,17 @@ struct InfiniteMonkeyTypingContentView: View {
         logText += string
     }
     
+    private func match(vocabulary: String) -> Bool {
+        return logText.contains(vocabulary)
+    }
+    
     private func match(character: String) -> Bool {
         
         guard let targetCharacter = targetCharacter else {
             return false
         }
         
-        return targetCharacter == character
+        return character.contains(targetCharacter)
     }
     
     private func checkIsFinish() {
@@ -183,7 +194,12 @@ extension InfiniteMonkeyTypingContentView {
     
     private func createRandomString() -> String {
         
-        return alphabet.randomElement() ?? ""
+        var resultString = ""
+        
+        for _ in 0..<monkeyTyperCount {
+            resultString += alphabet.randomElement() ?? ""
+        }
+        return resultString
     }
 }
 
