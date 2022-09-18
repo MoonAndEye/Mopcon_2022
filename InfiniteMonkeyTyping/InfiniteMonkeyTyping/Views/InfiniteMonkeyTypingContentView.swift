@@ -12,6 +12,10 @@ struct InfiniteMonkeyTypingContentView: View {
     
     @State private var targetText = ""
     
+    private var trimmedTarget: String {
+        targetText.replacingOccurrences(of: " ", with: "")
+    }
+    
     @State private var currentTargetIndex = 0
     
     private var targetCharacter: String? {
@@ -168,7 +172,7 @@ struct InfiniteMonkeyTypingContentView: View {
     
     private func checkIsFinish() {
         
-        if targetText.count == currentTargetIndex {
+        if trimmedTarget.count == currentTargetIndex {
             updateLog("完成比對，猴子自動停手")
             stopMonkeysTyping()
         }
@@ -195,7 +199,7 @@ extension InfiniteMonkeyTypingContentView {
     private func createRandomString() -> String {
         
         var resultString = ""
-        
+
         for _ in 0..<monkeyTyperCount {
             resultString += alphabet.randomElement() ?? ""
         }
