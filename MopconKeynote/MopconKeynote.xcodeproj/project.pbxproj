@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9B18F70928D75D8C006F0345 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F70828D75D8C006F0345 /* LandingView.swift */; };
+		9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F70C28D760A7006F0345 /* PageManager.swift */; };
+		9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F70F28D761A9006F0345 /* DummyPage1.swift */; };
+		9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F71128D761B3006F0345 /* DummyPage2.swift */; };
+		9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F71328D761BC006F0345 /* DummyPage3.swift */; };
 		9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */; };
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
@@ -15,6 +19,10 @@
 
 /* Begin PBXFileReference section */
 		9B18F70828D75D8C006F0345 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		9B18F70C28D760A7006F0345 /* PageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageManager.swift; sourceTree = "<group>"; };
+		9B18F70F28D761A9006F0345 /* DummyPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage1.swift; sourceTree = "<group>"; };
+		9B18F71128D761B3006F0345 /* DummyPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage2.swift; sourceTree = "<group>"; };
+		9B18F71328D761BC006F0345 /* DummyPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage3.swift; sourceTree = "<group>"; };
 		9BB0D86728D4822B00EEB233 /* MopconKeynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopconKeynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopconKeynoteApp.swift; sourceTree = "<group>"; };
 		9BB0D86E28D4822E00EEB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +41,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B18F70A28D76088006F0345 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B18F70E28D7619C006F0345 /* Pages */,
+				9B18F70828D75D8C006F0345 /* LandingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B18F70B28D7608D006F0345 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9B18F70C28D760A7006F0345 /* PageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9B18F70E28D7619C006F0345 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9B18F70F28D761A9006F0345 /* DummyPage1.swift */,
+				9B18F71128D761B3006F0345 /* DummyPage2.swift */,
+				9B18F71328D761BC006F0345 /* DummyPage3.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		9BB0D85E28D4822B00EEB233 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */,
-				9B18F70828D75D8C006F0345 /* LandingView.swift */,
+				9B18F70B28D7608D006F0345 /* Managers */,
+				9B18F70A28D76088006F0345 /* Views */,
 				9BB0D86E28D4822E00EEB233 /* Assets.xcassets */,
 				9BB0D87328D4822E00EEB233 /* MopconKeynote.entitlements */,
 				9BB0D87028D4822E00EEB233 /* Preview Content */,
@@ -139,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
+				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,
+				9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* LandingView.swift in Sources */,
 				9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */,
+				9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
