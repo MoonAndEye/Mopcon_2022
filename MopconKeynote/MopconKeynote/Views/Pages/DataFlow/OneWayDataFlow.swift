@@ -20,6 +20,7 @@ struct OneWayDataFlow: View {
       
       Image("StateAndDataFlow")
         .resizable()
+        .scaledToFit()
     }
   }
   

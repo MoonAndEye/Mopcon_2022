@@ -13,5 +13,7 @@ struct MKFontSize {
   
   static let landingBodySize: CGFloat = 35
   
-  static let textBody: CGFloat = 35
+  static let textTitle: CGFloat = 37
+  
+  static let textBody: CGFloat = 31
 }
