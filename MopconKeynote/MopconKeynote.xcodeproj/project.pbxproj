@@ -61,11 +61,19 @@
 		9B18F70E28D7619C006F0345 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				9B404B7828D88F9400D9607D /* DummyPage */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		9B404B7828D88F9400D9607D /* DummyPage */ = {
+			isa = PBXGroup;
+			children = (
 				9B18F70F28D761A9006F0345 /* DummyPage1.swift */,
 				9B18F71128D761B3006F0345 /* DummyPage2.swift */,
 				9B18F71328D761BC006F0345 /* DummyPage3.swift */,
 			);
-			path = Pages;
+			path = DummyPage;
 			sourceTree = "<group>";
 		};
 		9BB0D85E28D4822B00EEB233 = {

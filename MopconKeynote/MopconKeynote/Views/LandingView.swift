@@ -9,13 +9,11 @@ import SwiftUI
 
 struct LandingView: View {
     
-    @StateObject var pageManager: PageManager = .init()
+    @State var currentPageIndex = 0
     
     private var frameWidth: CGFloat {
         return 50
     }
-    
-    private var pages: [AnyView] = [DummyPage1(), DummyPage2(), DummyPage3()]
     
     var body: some View {
         
@@ -23,7 +21,7 @@ struct LandingView: View {
             
             pageSwitchView
             
-            DummyPage1()
+            getPage(at: currentPageIndex)
             
             Spacer()
         }
@@ -34,7 +32,7 @@ struct LandingView: View {
         HStack {
             
             Button {
-                pageManager.switchToPreviousPage()
+                switchToPreviousPage()
                 print("go to previous page")
             } label: {
                 Image(systemName: "arrow.left")
@@ -42,7 +40,7 @@ struct LandingView: View {
             }
             
             Button {
-                pageManager.switchToNextPage()
+                switchToNextPage()
                 print("go to next page")
             } label: {
                 Image(systemName: "arrow.right")
@@ -51,13 +49,36 @@ struct LandingView: View {
             
             Spacer()
         }
-        .padding([.top, .leading])
+        .padding()
+    }
+    
+    private func switchToPreviousPage() {
+        if currentPageIndex > 0 {
+            currentPageIndex -= 1
+        }
+    }
+    
+    private func switchToNextPage() {
+        currentPageIndex += 1
     }
 }
 
 extension LandingView {
     
-    
+    @ViewBuilder
+    func getPage(at index: Int) -> some View {
+        
+        switch index {
+            case 0:
+                DummyPage1()
+            case 1:
+                DummyPage2()
+            case 2:
+                DummyPage3()
+            default:
+                DummyPage1()
+        }
+    }
 }
 
 struct LandingView_Previews: PreviewProvider {
