@@ -19,6 +19,7 @@
 		9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8A28D89EC600D9607D /* InputTextDemo.swift */; };
 		9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */; };
 		9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8F28D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift */; };
+		9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */; };
 		9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */; };
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		9B404B8A28D89EC600D9607D /* InputTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextDemo.swift; sourceTree = "<group>"; };
 		9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextDemoPage.swift; sourceTree = "<group>"; };
 		9B404B8F28D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockIdeaIntroduction.swift; sourceTree = "<group>"; };
+		9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraceHopperDefineBugPage.swift; sourceTree = "<group>"; };
 		9BB0D86728D4822B00EEB233 /* MopconKeynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopconKeynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopconKeynoteApp.swift; sourceTree = "<group>"; };
 		9BB0D86E28D4822E00EEB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9B404B8F28D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift */,
+				9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */,
 			);
 			path = BackwardsClock;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,
 				9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */,
 				9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */,
+				9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

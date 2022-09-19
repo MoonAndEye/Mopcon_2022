@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/// 逆走鐘 idea 說明，源自 Grace Hopper
 struct BackwardsClockIdeaIntroduction: View {
   
   var body: some View {

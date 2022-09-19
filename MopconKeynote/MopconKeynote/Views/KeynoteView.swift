@@ -18,7 +18,9 @@ extension KeynoteView {
       /// 做一個 input demo 的 data flow 範例
       InputTextDemoPage.self,
       /// 逆走鐘 idea 說明，源自 Grace Hopper
-      BackwardsClockIdeaIntroduction.self
+      BackwardsClockIdeaIntroduction.self,
+      /// 葛麗絲．霍普 - bug 的說法
+      GraceHopperDefineBugPage.self
     ]
   }
 }
@@ -104,6 +106,9 @@ extension KeynoteView {
         case is BackwardsClockIdeaIntroduction.Type:
           /// 逆走鐘 idea 說明，源自 Grace Hopper
           BackwardsClockIdeaIntroduction()
+        case is GraceHopperDefineBugPage.Type:
+          /// 葛麗絲．霍普 - bug 的說法
+          GraceHopperDefineBugPage()
         default:
           DummyPage1()
       }
