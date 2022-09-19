@@ -75,7 +75,7 @@ extension KeynoteView {
       case 1:
         OneWayDataFlow()
       case 2:
-        DummyPage3()
+        InputTextDemoPage()
       default:
         DummyPage1()
     }

@@ -16,6 +16,8 @@
 		9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B7F28D893C000D9607D /* MKFontSize.swift */; };
 		9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8428D8976000D9607D /* OneWayDataFlow.swift */; };
 		9B404B8728D89BF700D9607D /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8628D89BF700D9607D /* ScreenSize.swift */; };
+		9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8A28D89EC600D9607D /* InputTextDemo.swift */; };
+		9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */; };
 		9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */; };
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		9B404B7F28D893C000D9607D /* MKFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKFontSize.swift; sourceTree = "<group>"; };
 		9B404B8428D8976000D9607D /* OneWayDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWayDataFlow.swift; sourceTree = "<group>"; };
 		9B404B8628D89BF700D9607D /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		9B404B8A28D89EC600D9607D /* InputTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextDemo.swift; sourceTree = "<group>"; };
+		9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextDemoPage.swift; sourceTree = "<group>"; };
 		9BB0D86728D4822B00EEB233 /* MopconKeynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopconKeynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopconKeynoteApp.swift; sourceTree = "<group>"; };
 		9BB0D86E28D4822E00EEB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		9B18F70A28D76088006F0345 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B404B8828D89EA900D9607D /* DemoComponents */,
 				9B18F70E28D7619C006F0345 /* Pages */,
 				9B18F70828D75D8C006F0345 /* KeynoteView.swift */,
 			);
@@ -99,8 +104,25 @@
 			isa = PBXGroup;
 			children = (
 				9B404B8428D8976000D9607D /* OneWayDataFlow.swift */,
+				9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */,
 			);
 			path = DataFlow;
+			sourceTree = "<group>";
+		};
+		9B404B8828D89EA900D9607D /* DemoComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9B404B8928D89EB000D9607D /* InputText */,
+			);
+			path = DemoComponents;
+			sourceTree = "<group>";
+		};
+		9B404B8928D89EB000D9607D /* InputText */ = {
+			isa = PBXGroup;
+			children = (
+				9B404B8A28D89EC600D9607D /* InputTextDemo.swift */,
+			);
+			path = InputText;
 			sourceTree = "<group>";
 		};
 		9BB0D85E28D4822B00EEB233 = {
@@ -214,10 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B404B8728D89BF700D9607D /* ScreenSize.swift in Sources */,
+				9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */,
 				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
 				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,
 				9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */,
+				9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,
