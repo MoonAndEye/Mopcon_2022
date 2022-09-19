@@ -11,8 +11,8 @@ import SwiftUI
 struct MopconKeynoteApp: App {
     var body: some Scene {
         WindowGroup {
-            LandingView()
-                .frame(width: 650, height: 450)
+            KeynoteView()
+                .frame(minWidth: 800, idealWidth: .infinity, maxWidth: .infinity, minHeight: 600, idealHeight: .infinity, maxHeight: .infinity, alignment: .center)
         }
     }
 }

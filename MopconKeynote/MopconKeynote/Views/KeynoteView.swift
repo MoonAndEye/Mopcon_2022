@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LandingView: View {
+struct KeynoteView: View {
     
     @State var currentPageIndex = 0
     
@@ -50,6 +50,7 @@ struct LandingView: View {
             Spacer()
         }
         .padding()
+        .padding([.top, .leading], 50)
     }
     
     private func switchToPreviousPage() {
@@ -63,14 +64,14 @@ struct LandingView: View {
     }
 }
 
-extension LandingView {
+extension KeynoteView {
     
     @ViewBuilder
     func getPage(at index: Int) -> some View {
         
         switch index {
             case 0:
-                DummyPage1()
+                TalkLandingPageView()
             case 1:
                 DummyPage2()
             case 2:
@@ -83,7 +84,7 @@ extension LandingView {
 
 struct LandingView_Previews: PreviewProvider {
     static var previews: some View {
-        LandingView()
+        KeynoteView()
             .frame(width: 650, height: 450)
             .preferredColorScheme(.light)
     }
