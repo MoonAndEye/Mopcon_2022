@@ -7,6 +7,22 @@
 
 import SwiftUI
 
+extension KeynoteView {
+  
+  private var pages: [Any] {
+    [
+      /// 開場 Title
+      TalkLandingPageView.self,
+      /// SwiftUI One way data flow 說明
+      OneWayDataFlow.self,
+      /// 做一個 input demo 的 data flow 範例
+      InputTextDemoPage.self,
+      /// 逆走鐘 idea 說明，源自 Grace Hopper
+      BackwardsClockIdeaIntroduction.self
+    ]
+  }
+}
+
 struct KeynoteView: View {
   
   @State var currentPageIndex = 0
@@ -33,7 +49,6 @@ struct KeynoteView: View {
       
       Button {
         switchToPreviousPage()
-        print("go to previous page")
       } label: {
         Image(systemName: "arrow.left")
           .frame(minWidth: frameWidth)
@@ -41,7 +56,6 @@ struct KeynoteView: View {
       
       Button {
         switchToNextPage()
-        print("go to next page")
       } label: {
         Image(systemName: "arrow.right")
           .frame(minWidth: frameWidth)
@@ -56,10 +70,16 @@ struct KeynoteView: View {
   private func switchToPreviousPage() {
     if currentPageIndex > 0 {
       currentPageIndex -= 1
+      print("go to previous page")
     }
   }
   
   private func switchToNextPage() {
+     
+    if currentPageIndex + 1 == pages.count {
+      return
+    }
+    print("go to next page")
     currentPageIndex += 1
   }
 }
@@ -68,16 +88,27 @@ extension KeynoteView {
   
   @ViewBuilder
   func getPage(at index: Int) -> some View {
-    
-    switch index {
-      case 0:
-        TalkLandingPageView()
-      case 1:
-        OneWayDataFlow()
-      case 2:
-        InputTextDemoPage()
-      default:
-        DummyPage1()
+
+    if pages.indices.contains(index) {
+      
+      switch pages[index].self {
+        case is TalkLandingPageView.Type:
+          /// 開場 Title
+          TalkLandingPageView()
+        case is OneWayDataFlow.Type:
+          /// SwiftUI One way data flow 說明
+          OneWayDataFlow()
+        case is InputTextDemoPage.Type:
+          /// 做一個 input demo 的 data flow 範例
+          InputTextDemoPage()
+        case is BackwardsClockIdeaIntroduction.Type:
+          /// 逆走鐘 idea 說明，源自 Grace Hopper
+          BackwardsClockIdeaIntroduction()
+        default:
+          DummyPage1()
+      }
+    } else {
+      DummyPage1()
     }
   }
 }
@@ -85,7 +116,7 @@ extension KeynoteView {
 struct LandingView_Previews: PreviewProvider {
   static var previews: some View {
     KeynoteView()
-      .frame(width: 650, height: 450)
+      .frame(width: 1440, height: 900)
       .preferredColorScheme(.light)
   }
 }
