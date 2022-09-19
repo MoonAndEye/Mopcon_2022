@@ -17,7 +17,7 @@ struct TalkLandingPageView: View {
         Text("使用 SwiftUI 寫出有趣的 Apps")
           .padding(.top, 20)
           .font(.system(size: MKFontSize.landingTitleSize, weight: .semibold, design: .monospaced))
-          .lineLimit(1)
+          .lineLimit(0)
         
         Group {
           HStack {
