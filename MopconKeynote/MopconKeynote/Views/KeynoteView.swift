@@ -20,7 +20,11 @@ extension KeynoteView {
       /// 逆走鐘 idea 說明，源自 Grace Hopper
       BackwardsClockIdeaIntroduction.self,
       /// 葛麗絲．霍普 - bug 的說法
-      GraceHopperDefineBugPage.self
+      GraceHopperDefineBugPage.self,
+      /// 葛麗絲．霍普 - 讓電腦讀懂人類的語言
+      GraceCreateFlowMatic.self,
+      /// 葛麗絲放在牆上的標語和逆走鐘
+      GraceBackwardsClockAndQuote.self
     ]
   }
 }
@@ -109,6 +113,12 @@ extension KeynoteView {
         case is GraceHopperDefineBugPage.Type:
           /// 葛麗絲．霍普 - bug 的說法
           GraceHopperDefineBugPage()
+        case is GraceCreateFlowMatic.Type:
+          /// 葛麗絲．霍普 - 讓電腦讀懂人類的語言
+          GraceCreateFlowMatic()
+        case is GraceBackwardsClockAndQuote.Type:
+          /// 葛麗絲放在牆上的標語和逆走鐘
+          GraceBackwardsClockAndQuote()
         default:
           DummyPage1()
       }
