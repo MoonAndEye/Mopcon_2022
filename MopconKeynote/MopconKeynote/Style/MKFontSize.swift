@@ -9,9 +9,9 @@ import Foundation
 
 struct MKFontSize {
   
-  static let landingTitleSize: CGFloat = 50
+  static let landingTitleSize: CGFloat = 67
   
-  static let landingBodySize: CGFloat = 35
+  static let landingBodySize: CGFloat = 43
   
   static let textTitle: CGFloat = 37
   

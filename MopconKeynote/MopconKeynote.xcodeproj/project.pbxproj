@@ -20,6 +20,8 @@
 		9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */; };
 		9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8F28D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift */; };
 		9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */; };
+		9B404B9528D93D7700D9607D /* LeftTextAndRightImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B9428D93D7700D9607D /* LeftTextAndRightImage.swift */; };
+		9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404BB928D9C1A400D9607D /* LeftTextAndTwoRightImage.swift */; };
 		9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */; };
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
@@ -39,6 +41,8 @@
 		9B404B8C28D89F2400D9607D /* InputTextDemoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextDemoPage.swift; sourceTree = "<group>"; };
 		9B404B8F28D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockIdeaIntroduction.swift; sourceTree = "<group>"; };
 		9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraceHopperDefineBugPage.swift; sourceTree = "<group>"; };
+		9B404B9428D93D7700D9607D /* LeftTextAndRightImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTextAndRightImage.swift; sourceTree = "<group>"; };
+		9B404BB928D9C1A400D9607D /* LeftTextAndTwoRightImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTextAndTwoRightImage.swift; sourceTree = "<group>"; };
 		9BB0D86728D4822B00EEB233 /* MopconKeynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopconKeynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopconKeynoteApp.swift; sourceTree = "<group>"; };
 		9BB0D86E28D4822E00EEB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 		9B18F70A28D76088006F0345 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B404B9328D93D4400D9607D /* Template */,
 				9B404B8828D89EA900D9607D /* DemoComponents */,
 				9B18F70E28D7619C006F0345 /* Pages */,
 				9B18F70828D75D8C006F0345 /* KeynoteView.swift */,
@@ -137,6 +142,15 @@
 				9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */,
 			);
 			path = BackwardsClock;
+			sourceTree = "<group>";
+		};
+		9B404B9328D93D4400D9607D /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				9B404B9428D93D7700D9607D /* LeftTextAndRightImage.swift */,
+				9B404BB928D9C1A400D9607D /* LeftTextAndTwoRightImage.swift */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 		9BB0D85E28D4822B00EEB233 = {
@@ -256,6 +270,7 @@
 				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,
 				9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */,
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
+				9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */,
 				9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
@@ -263,6 +278,7 @@
 				9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */,
 				9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */,
 				9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */,
+				9B404B9528D93D7700D9607D /* LeftTextAndRightImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
