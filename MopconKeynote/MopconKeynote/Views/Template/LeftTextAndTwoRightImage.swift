@@ -16,22 +16,26 @@ struct LeftTextAndTwoRightImage: View {
   
   var textFont: CGFloat = MKFontSize.textBody
   
-  var topPadding: CGFloat = 20
+  var topPadding: CGFloat = 0
   
-  var leadPadding: CGFloat = 20
+  var leadPadding: CGFloat = 40
   
-  var trailingPadding: CGFloat = 20
+  var trailingPadding: CGFloat = 40
   
   var body: some View {
     HStack(alignment: .top) {
       
       Group {
-        
-        text
-          .font(.system(size: textFont))
-          .padding(.top, topPadding)
-          .padding(.leading, leadPadding)
-          .padding(.trailing, trailingPadding)
+        VStack {
+          Spacer()
+          text
+            .font(.system(size: textFont))
+            .lineSpacing(20)
+            .padding(.top, topPadding)
+            .padding(.leading, leadPadding)
+            .padding(.trailing, trailingPadding)
+          Spacer()
+        }
         
         VStack {
           
