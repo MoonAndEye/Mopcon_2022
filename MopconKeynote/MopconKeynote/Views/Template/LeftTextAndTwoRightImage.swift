@@ -18,7 +18,7 @@ struct LeftTextAndTwoRightImage: View {
   
   var topPadding: CGFloat = 0
   
-  var leadPadding: CGFloat = 40
+  var leadingPadding: CGFloat = 40
   
   var trailingPadding: CGFloat = 40
   
@@ -32,7 +32,7 @@ struct LeftTextAndTwoRightImage: View {
             .font(.system(size: textFont))
             .lineSpacing(20)
             .padding(.top, topPadding)
-            .padding(.leading, leadPadding)
+            .padding(.leading, leadingPadding)
             .padding(.trailing, trailingPadding)
           Spacer()
         }
@@ -55,10 +55,14 @@ struct LeftTextAndTwoRightImage: View {
     }
   }
   
-  init(text: AnyView, imageUp: Image, imageDown: Image) {
+  init(text: AnyView, imageUp: Image, imageDown: Image, topPadding: CGFloat = 0, leadingPadding: CGFloat = 40, trailingPadding: CGFloat = 40) {
     self.text = text
     self.imageUp = imageUp
     self.imageDown = imageDown
+    
+    self.topPadding = topPadding
+    self.leadingPadding = leadingPadding
+    self.trailingPadding = trailingPadding
   }
 }
 

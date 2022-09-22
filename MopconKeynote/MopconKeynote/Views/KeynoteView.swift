@@ -24,7 +24,9 @@ extension KeynoteView {
       /// 葛麗絲．霍普 - 讓電腦讀懂人類的語言
       GraceCreateFlowMatic.self,
       /// 葛麗絲放在牆上的標語和逆走鐘
-      GraceBackwardsClockAndQuote.self
+      GraceBackwardsClockAndQuote.self,
+      /// 開始寫專案前，先交叉手指
+      BeforeStartDemoCrossFinger.self
     ]
   }
 }
@@ -119,6 +121,9 @@ extension KeynoteView {
         case is GraceBackwardsClockAndQuote.Type:
           /// 葛麗絲放在牆上的標語和逆走鐘
           GraceBackwardsClockAndQuote()
+        case is BeforeStartDemoCrossFinger.Type:
+          /// 開始寫專案前，先交叉手指
+          BeforeStartDemoCrossFinger()
         default:
           DummyPage1()
       }

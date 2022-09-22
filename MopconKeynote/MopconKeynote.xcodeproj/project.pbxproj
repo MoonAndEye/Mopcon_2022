@@ -28,6 +28,9 @@
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
+		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
+		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
+		9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BB0D87328D4822E00EEB233 /* MopconKeynote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MopconKeynote.entitlements; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
+		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
+		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
+		9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeStartDemoCrossFinger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +154,9 @@
 				9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */,
 				9B404BBB28D9C30C00D9607D /* GraceCreateFlowMatic.swift */,
 				9B404BBD28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift */,
+				9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */,
 				9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */,
+				9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */,
 			);
 			path = BackwardsClock;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 			children = (
 				9B404B9428D93D7700D9607D /* LeftTextAndRightImage.swift */,
 				9B404BB928D9C1A400D9607D /* LeftTextAndTwoRightImage.swift */,
+				9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -272,10 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */,
 				9B404B8728D89BF700D9607D /* ScreenSize.swift in Sources */,
 				9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */,
 				9B404BBC28D9C30C00D9607D /* GraceCreateFlowMatic.swift in Sources */,
+				9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */,
 				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
+				9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */,
 				9B404BBE28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift in Sources */,
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
 				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,

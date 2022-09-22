@@ -14,7 +14,7 @@ struct GraceCreateFlowMatic: View {
   }
   
   var image: Image {
-    Image(systemName: "person.fill")
+    Image("UsingEnglishWritingCode")
   }
   
   var text: AnyView {

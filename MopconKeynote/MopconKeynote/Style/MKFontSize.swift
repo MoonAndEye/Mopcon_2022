@@ -16,4 +16,6 @@ struct MKFontSize {
   static let textTitle: CGFloat = 37
   
   static let textBody: CGFloat = 31
+  
+  static let centerSentence: CGFloat = 67
 }

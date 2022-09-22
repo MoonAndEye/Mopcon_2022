@@ -12,7 +12,7 @@ struct MopconKeynoteApp: App {
     var body: some Scene {
         WindowGroup {
             KeynoteView()
-                .frame(minWidth: 800, idealWidth: .infinity, maxWidth: .infinity, minHeight: 600, idealHeight: .infinity, maxHeight: .infinity, alignment: .center)
+                .frame(minWidth: 1000, idealWidth: .infinity, maxWidth: .infinity, minHeight: 800, idealHeight: .infinity, maxHeight: .infinity, alignment: .center)
         }
     }
 }

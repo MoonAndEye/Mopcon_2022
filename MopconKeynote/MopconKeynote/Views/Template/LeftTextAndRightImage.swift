@@ -15,7 +15,7 @@ struct LeftTextAndRightImage: View {
   
   var textFont: CGFloat = MKFontSize.textBody
   
-  var topPadding: CGFloat = 0
+  @State var topPadding: CGFloat = 0
   
   var leadPadding: CGFloat = 40
   
