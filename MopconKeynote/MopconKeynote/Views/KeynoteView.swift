@@ -25,6 +25,10 @@ extension KeynoteView {
       GraceCreateFlowMatic.self,
       /// 葛麗絲放在牆上的標語和逆走鐘
       GraceBackwardsClockAndQuote.self,
+      /// 自己上架的 App，實際 app size
+      BackwardsClockAppStorePage.self,
+      /// 時鐘的三成份 針、錶盤、機芯
+      ClockCompositionIntro.self,
       /// 開始寫專案前，先交叉手指
       BeforeStartDemoCrossFinger.self
     ]
@@ -121,9 +125,15 @@ extension KeynoteView {
         case is GraceBackwardsClockAndQuote.Type:
           /// 葛麗絲放在牆上的標語和逆走鐘
           GraceBackwardsClockAndQuote()
+        case is BackwardsClockAppStorePage.Type:
+          /// 自己上架的 App，實際 app size
+          BackwardsClockAppStorePage()
         case is BeforeStartDemoCrossFinger.Type:
           /// 開始寫專案前，先交叉手指
           BeforeStartDemoCrossFinger()
+        case is ClockCompositionIntro.Type:
+          /// 時鐘的三成份 針、錶盤、機芯
+          ClockCompositionIntro()
         default:
           DummyPage1()
       }
