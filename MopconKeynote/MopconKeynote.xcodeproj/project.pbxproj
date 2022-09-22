@@ -27,6 +27,7 @@
 		9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */; };
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
+		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		9BB0D86E28D4822E00EEB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BB0D87328D4822E00EEB233 /* MopconKeynote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MopconKeynote.entitlements; sourceTree = "<group>"; };
+		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */,
 				9B404BBB28D9C30C00D9607D /* GraceCreateFlowMatic.swift */,
 				9B404BBD28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift */,
+				9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */,
 			);
 			path = BackwardsClock;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,
 				9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */,
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
+				9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */,
 				9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */,
 				9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
