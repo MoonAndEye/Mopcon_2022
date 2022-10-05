@@ -30,7 +30,9 @@ extension KeynoteView {
       /// 時鐘的三成份 針、錶盤、機芯
       ClockCompositionIntro.self,
       /// 開始寫專案前，先交叉手指
-      BeforeStartDemoCrossFinger.self
+      BeforeStartDemoCrossFinger.self,
+      /// 準備 live coding 之前，先介紹 hand view
+      StartWithHand.self
     ]
   }
 }
@@ -134,6 +136,8 @@ extension KeynoteView {
         case is ClockCompositionIntro.Type:
           /// 時鐘的三成份 針、錶盤、機芯
           ClockCompositionIntro()
+        case is StartWithHand.Type:
+          StartWithHand()
         default:
           DummyPage1()
       }
