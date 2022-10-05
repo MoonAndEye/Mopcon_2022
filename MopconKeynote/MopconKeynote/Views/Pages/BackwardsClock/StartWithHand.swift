@@ -23,7 +23,7 @@ struct StartWithHand: View {
         Spacer()
       }
         .font(.system(size: 40))
-        .padding([.leading, .trailing], 20)
+        .padding(.leading, 40)
     )
   }
   
