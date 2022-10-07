@@ -107,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				9B404B7928D88FD700D9607D /* TalkLandingPageView.swift */,
+				9BC2A6B428F01E9F002133ED /* SwiftUIConclustion */,
 				9B404B8128D8974200D9607D /* DataFlow */,
 				9B404B8E28D8ADE400D9607D /* BackwardsClock */,
 			);
@@ -159,9 +160,6 @@
 				9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */,
 				9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */,
 				9B81677828E8235300416A16 /* StartWithHand.swift */,
-				9BC2A6AB28EF0343002133ED /* HowToChoose.swift */,
-				9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */,
-				9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */,
 			);
 			path = BackwardsClock;
 			sourceTree = "<group>";
@@ -242,6 +240,16 @@
 			name = DummyPage;
 			path = MopconKeynote/Views/Pages/DummyPage;
 			sourceTree = SOURCE_ROOT;
+		};
+		9BC2A6B428F01E9F002133ED /* SwiftUIConclustion */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A6AB28EF0343002133ED /* HowToChoose.swift */,
+				9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */,
+				9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */,
+			);
+			path = SwiftUIConclustion;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
