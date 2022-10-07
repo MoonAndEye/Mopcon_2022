@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F70828D75D8C006F0345 /* KeynoteView.swift */; };
 		9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F70C28D760A7006F0345 /* PageManager.swift */; };
-		9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F70F28D761A9006F0345 /* DummyPage1.swift */; };
-		9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F71128D761B3006F0345 /* DummyPage2.swift */; };
-		9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F71328D761BC006F0345 /* DummyPage3.swift */; };
 		9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B7928D88FD700D9607D /* TalkLandingPageView.swift */; };
 		9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B7F28D893C000D9607D /* MKFontSize.swift */; };
 		9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B404B8428D8976000D9607D /* OneWayDataFlow.swift */; };
@@ -34,6 +31,7 @@
 		9BC2A6AC28EF0343002133ED /* HowToChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AB28EF0343002133ED /* HowToChoose.swift */; };
 		9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */; };
 		9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */; };
+		9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6B228F00D89002133ED /* DummyPage1.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -43,9 +41,6 @@
 /* Begin PBXFileReference section */
 		9B18F70828D75D8C006F0345 /* KeynoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeynoteView.swift; sourceTree = "<group>"; };
 		9B18F70C28D760A7006F0345 /* PageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageManager.swift; sourceTree = "<group>"; };
-		9B18F70F28D761A9006F0345 /* DummyPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage1.swift; sourceTree = "<group>"; };
-		9B18F71128D761B3006F0345 /* DummyPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage2.swift; sourceTree = "<group>"; };
-		9B18F71328D761BC006F0345 /* DummyPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage3.swift; sourceTree = "<group>"; };
 		9B404B7928D88FD700D9607D /* TalkLandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkLandingPageView.swift; sourceTree = "<group>"; };
 		9B404B7F28D893C000D9607D /* MKFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKFontSize.swift; sourceTree = "<group>"; };
 		9B404B8428D8976000D9607D /* OneWayDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWayDataFlow.swift; sourceTree = "<group>"; };
@@ -70,6 +65,7 @@
 		9BC2A6AB28EF0343002133ED /* HowToChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToChoose.swift; sourceTree = "<group>"; };
 		9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPros.swift; sourceTree = "<group>"; };
 		9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDifficults.swift; sourceTree = "<group>"; };
+		9BC2A6B228F00D89002133ED /* DummyPage1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyPage1.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -110,22 +106,11 @@
 		9B18F70E28D7619C006F0345 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				9B404B7828D88F9400D9607D /* DummyPage */,
 				9B404B7928D88FD700D9607D /* TalkLandingPageView.swift */,
 				9B404B8128D8974200D9607D /* DataFlow */,
 				9B404B8E28D8ADE400D9607D /* BackwardsClock */,
 			);
 			path = Pages;
-			sourceTree = "<group>";
-		};
-		9B404B7828D88F9400D9607D /* DummyPage */ = {
-			isa = PBXGroup;
-			children = (
-				9B18F70F28D761A9006F0345 /* DummyPage1.swift */,
-				9B18F71128D761B3006F0345 /* DummyPage2.swift */,
-				9B18F71328D761BC006F0345 /* DummyPage3.swift */,
-			);
-			path = DummyPage;
 			sourceTree = "<group>";
 		};
 		9B404B7E28D893B000D9607D /* Style */ = {
@@ -149,6 +134,7 @@
 		9B404B8828D89EA900D9607D /* DemoComponents */ = {
 			isa = PBXGroup;
 			children = (
+				9BC2A6B128F00D89002133ED /* DummyPage */,
 				9B404B8928D89EB000D9607D /* InputText */,
 			);
 			path = DemoComponents;
@@ -248,6 +234,15 @@
 			path = Hand;
 			sourceTree = "<group>";
 		};
+		9BC2A6B128F00D89002133ED /* DummyPage */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A6B228F00D89002133ED /* DummyPage1.swift */,
+			);
+			name = DummyPage;
+			path = MopconKeynote/Views/Pages/DummyPage;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -328,8 +323,6 @@
 				9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */,
 				9B404BBE28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift in Sources */,
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
-				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,
-				9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */,
 				9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */,
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
 				9BC2A6AC28EF0343002133ED /* HowToChoose.swift in Sources */,
@@ -337,6 +330,7 @@
 				9BC2A68E28EDC531002133ED /* HandShape.swift in Sources */,
 				9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */,
 				9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */,
+				9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */,
 				9B81677B28E8252800416A16 /* LeftViewAndRightView.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
@@ -344,7 +338,6 @@
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,
 				9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */,
 				9BC2A6AA28EEE1A8002133ED /* NormalTemplate.swift in Sources */,
-				9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */,
 				9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */,
 				9B404B9528D93D7700D9607D /* LeftTextAndRightImage.swift in Sources */,
 			);
