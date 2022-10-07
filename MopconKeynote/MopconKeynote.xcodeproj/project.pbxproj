@@ -30,6 +30,10 @@
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
 		9BC2A68E28EDC531002133ED /* HandShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A68D28EDC531002133ED /* HandShape.swift */; };
+		9BC2A6AA28EEE1A8002133ED /* NormalTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6A928EEE1A8002133ED /* NormalTemplate.swift */; };
+		9BC2A6AC28EF0343002133ED /* HowToChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AB28EF0343002133ED /* HowToChoose.swift */; };
+		9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */; };
+		9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -62,6 +66,10 @@
 		9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BB0D87328D4822E00EEB233 /* MopconKeynote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MopconKeynote.entitlements; sourceTree = "<group>"; };
 		9BC2A68D28EDC531002133ED /* HandShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandShape.swift; sourceTree = "<group>"; };
+		9BC2A6A928EEE1A8002133ED /* NormalTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTemplate.swift; sourceTree = "<group>"; };
+		9BC2A6AB28EF0343002133ED /* HowToChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToChoose.swift; sourceTree = "<group>"; };
+		9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPros.swift; sourceTree = "<group>"; };
+		9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDifficults.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -165,6 +173,9 @@
 				9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */,
 				9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */,
 				9B81677828E8235300416A16 /* StartWithHand.swift */,
+				9BC2A6AB28EF0343002133ED /* HowToChoose.swift */,
+				9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */,
+				9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */,
 			);
 			path = BackwardsClock;
 			sourceTree = "<group>";
@@ -176,6 +187,7 @@
 				9B404BB928D9C1A400D9607D /* LeftTextAndTwoRightImage.swift */,
 				9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */,
 				9B81677A28E8252800416A16 /* LeftViewAndRightView.swift */,
+				9BC2A6A928EEE1A8002133ED /* NormalTemplate.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -310,6 +322,7 @@
 				9B404B8728D89BF700D9607D /* ScreenSize.swift in Sources */,
 				9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */,
 				9B404BBC28D9C30C00D9607D /* GraceCreateFlowMatic.swift in Sources */,
+				9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */,
 				9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */,
 				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
 				9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */,
@@ -317,7 +330,9 @@
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
 				9B18F71028D761A9006F0345 /* DummyPage1.swift in Sources */,
 				9B18F71228D761B3006F0345 /* DummyPage2.swift in Sources */,
+				9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */,
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
+				9BC2A6AC28EF0343002133ED /* HowToChoose.swift in Sources */,
 				9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */,
 				9BC2A68E28EDC531002133ED /* HandShape.swift in Sources */,
 				9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */,
@@ -328,6 +343,7 @@
 				9B81677928E8235300416A16 /* StartWithHand.swift in Sources */,
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,
 				9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */,
+				9BC2A6AA28EEE1A8002133ED /* NormalTemplate.swift in Sources */,
 				9B18F71428D761BC006F0345 /* DummyPage3.swift in Sources */,
 				9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */,
 				9B404B9528D93D7700D9607D /* LeftTextAndRightImage.swift in Sources */,

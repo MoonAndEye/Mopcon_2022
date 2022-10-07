@@ -32,7 +32,13 @@ extension KeynoteView {
       /// 開始寫專案前，先交叉手指
       BeforeStartDemoCrossFinger.self,
       /// 準備 live coding 之前，先介紹 hand view
-      StartWithHand.self
+      StartWithHand.self,
+      /// 說明如何選 SwiftUI / UIKit
+      HowToChoose.self,
+      /// 使用 SwiftUI 帶來不方便的地方
+      SwiftUIDifficults.self,
+      /// 使用 SwiftUI 的好處
+      SwiftUIPros.self
     ]
   }
 }
@@ -138,6 +144,16 @@ extension KeynoteView {
           ClockCompositionIntro()
         case is StartWithHand.Type:
           StartWithHand()
+        case is HowToChoose.Type:
+          /// 說明如何選 SwiftUI / UIKit
+          HowToChoose()
+        case is SwiftUIPros.Type:
+          /// 使用 SwiftUI 的好處
+          SwiftUIPros()
+          
+        case is SwiftUIDifficults.Type:
+          /// 使用 SwiftUI 帶來不方便的地方
+          SwiftUIDifficults()
         default:
           DummyPage1()
       }
