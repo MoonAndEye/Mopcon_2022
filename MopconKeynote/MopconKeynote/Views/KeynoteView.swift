@@ -73,6 +73,7 @@ struct KeynoteView: View {
         Image(systemName: "arrow.left")
           .frame(minWidth: frameWidth)
       }
+      .keyboardShortcut(KeyEquivalent.leftArrow, modifiers: [])
       
       Button {
         switchToNextPage()
@@ -80,6 +81,7 @@ struct KeynoteView: View {
         Image(systemName: "arrow.right")
           .frame(minWidth: frameWidth)
       }
+      .keyboardShortcut(KeyEquivalent.rightArrow, modifiers: [])
       
       Spacer()
     }
