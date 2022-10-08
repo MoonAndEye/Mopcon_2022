@@ -36,7 +36,7 @@ struct SwiftUIDifficults: View {
   }
   
   private var content3: String {
-    "  - 我們來看直向滑動列表的「分隔線」"
+    "  - 我們來看直向 List 的「分隔線」"
   }
   
   var body: some View {

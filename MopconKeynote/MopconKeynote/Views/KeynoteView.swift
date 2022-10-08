@@ -38,7 +38,9 @@ extension KeynoteView {
       /// 使用 SwiftUI 帶來不方便的地方
       SwiftUIDifficults.self,
       /// 使用 SwiftUI 的好處
-      SwiftUIPros.self
+      SwiftUIPros.self,
+      /// 展示 List separator UI
+      DemoListSeparator.self
     ]
   }
 }
@@ -156,6 +158,9 @@ extension KeynoteView {
         case is SwiftUIDifficults.Type:
           /// 使用 SwiftUI 帶來不方便的地方
           SwiftUIDifficults()
+        case is DemoListSeparator.Type:
+          /// 展示 List separator UI
+          DemoListSeparator()
         default:
           DummyPage1()
       }

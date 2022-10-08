@@ -32,6 +32,9 @@
 		9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */; };
 		9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */; };
 		9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6B228F00D89002133ED /* DummyPage1.swift */; };
+		9BC2A6B628F01F38002133ED /* DemoListSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6B528F01F38002133ED /* DemoListSeparator.swift */; };
+		9BC2A6D228F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6D128F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift */; };
+		9BC2A6D428F07F92002133ED /* OneImageWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6D328F07F92002133ED /* OneImageWithTitle.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -66,6 +69,9 @@
 		9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPros.swift; sourceTree = "<group>"; };
 		9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDifficults.swift; sourceTree = "<group>"; };
 		9BC2A6B228F00D89002133ED /* DummyPage1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyPage1.swift; sourceTree = "<group>"; };
+		9BC2A6B528F01F38002133ED /* DemoListSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListSeparator.swift; sourceTree = "<group>"; };
+		9BC2A6D128F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTextAndRightImageWithTitle.swift; sourceTree = "<group>"; };
+		9BC2A6D328F07F92002133ED /* OneImageWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneImageWithTitle.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -167,8 +173,10 @@
 		9B404B9328D93D4400D9607D /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				9BC2A6D128F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift */,
 				9B404B9428D93D7700D9607D /* LeftTextAndRightImage.swift */,
 				9B404BB928D9C1A400D9607D /* LeftTextAndTwoRightImage.swift */,
+				9BC2A6D328F07F92002133ED /* OneImageWithTitle.swift */,
 				9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */,
 				9B81677A28E8252800416A16 /* LeftViewAndRightView.swift */,
 				9BC2A6A928EEE1A8002133ED /* NormalTemplate.swift */,
@@ -247,6 +255,7 @@
 				9BC2A6AB28EF0343002133ED /* HowToChoose.swift */,
 				9BC2A6AD28EF10D4002133ED /* SwiftUIPros.swift */,
 				9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */,
+				9BC2A6B528F01F38002133ED /* DemoListSeparator.swift */,
 			);
 			path = SwiftUIConclustion;
 			sourceTree = "<group>";
@@ -322,13 +331,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */,
+				9BC2A6D428F07F92002133ED /* OneImageWithTitle.swift in Sources */,
 				9B404B8728D89BF700D9607D /* ScreenSize.swift in Sources */,
 				9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */,
 				9B404BBC28D9C30C00D9607D /* GraceCreateFlowMatic.swift in Sources */,
+				9BC2A6B628F01F38002133ED /* DemoListSeparator.swift in Sources */,
 				9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */,
 				9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */,
 				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
 				9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */,
+				9BC2A6D228F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift in Sources */,
 				9B404BBE28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift in Sources */,
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
 				9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */,
