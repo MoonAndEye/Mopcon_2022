@@ -11,6 +11,8 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
+      /// 不同版本 iOS 要用不同方法把分隔線去掉
+      ListSeparatorInDiffiOS.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -38,7 +40,9 @@ extension KeynoteView {
       /// 使用 SwiftUI 帶來不方便的地方
       SwiftUIDifficults.self,
       /// 使用 SwiftUI 的好處
-      SwiftUIPros.self
+      SwiftUIPros.self,
+      /// 展示 List separator UI
+      DemoListSeparator.self
     ]
   }
 }
@@ -73,6 +77,7 @@ struct KeynoteView: View {
         Image(systemName: "arrow.left")
           .frame(minWidth: frameWidth)
       }
+      .keyboardShortcut(KeyEquivalent.leftArrow, modifiers: [])
       
       Button {
         switchToNextPage()
@@ -80,6 +85,7 @@ struct KeynoteView: View {
         Image(systemName: "arrow.right")
           .frame(minWidth: frameWidth)
       }
+      .keyboardShortcut(KeyEquivalent.rightArrow, modifiers: [])
       
       Spacer()
     }
@@ -154,6 +160,12 @@ extension KeynoteView {
         case is SwiftUIDifficults.Type:
           /// 使用 SwiftUI 帶來不方便的地方
           SwiftUIDifficults()
+        case is DemoListSeparator.Type:
+          /// 展示 List separator UI
+          DemoListSeparator()
+        case is ListSeparatorInDiffiOS.Type:
+          /// 不同版本 iOS 要用不同方法把分隔線去掉
+          ListSeparatorInDiffiOS()
         default:
           DummyPage1()
       }
