@@ -11,6 +11,8 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
+      /// 不同版本 iOS 要用不同方法把分隔線去掉
+      ListSeparatorInDiffiOS.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -161,6 +163,9 @@ extension KeynoteView {
         case is DemoListSeparator.Type:
           /// 展示 List separator UI
           DemoListSeparator()
+        case is ListSeparatorInDiffiOS.Type:
+          /// 不同版本 iOS 要用不同方法把分隔線去掉
+          ListSeparatorInDiffiOS()
         default:
           DummyPage1()
       }
