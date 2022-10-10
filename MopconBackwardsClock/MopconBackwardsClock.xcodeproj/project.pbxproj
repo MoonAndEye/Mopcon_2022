@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9BC2A69C28EDD917002133ED /* MopconBackwardsClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A69B28EDD917002133ED /* MopconBackwardsClockApp.swift */; };
-		9BC2A69E28EDD917002133ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A69D28EDD917002133ED /* ContentView.swift */; };
 		9BC2A6A028EDD919002133ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2A69F28EDD919002133ED /* Assets.xcassets */; };
 		9BC2A6A328EDD919002133ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2A6A228EDD919002133ED /* Preview Assets.xcassets */; };
+		9BC2A70328F453E9002133ED /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70228F453E9002133ED /* Hand.swift */; };
+		9BC2A70528F455BB002133ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70428F455BB002133ED /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BC2A69828EDD917002133ED /* MopconBackwardsClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopconBackwardsClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC2A69B28EDD917002133ED /* MopconBackwardsClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopconBackwardsClockApp.swift; sourceTree = "<group>"; };
-		9BC2A69D28EDD917002133ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BC2A69F28EDD919002133ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BC2A6A228EDD919002133ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BC2A70228F453E9002133ED /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		9BC2A70428F455BB002133ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,9 @@
 				9BC2A69A28EDD917002133ED /* MopconBackwardsClock */,
 				9BC2A69928EDD917002133ED /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		9BC2A69928EDD917002133ED /* Products */ = {
 			isa = PBXGroup;
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				9BC2A69B28EDD917002133ED /* MopconBackwardsClockApp.swift */,
-				9BC2A69D28EDD917002133ED /* ContentView.swift */,
+				9BC2A70128F453BE002133ED /* Views */,
 				9BC2A69F28EDD919002133ED /* Assets.xcassets */,
 				9BC2A6A128EDD919002133ED /* Preview Content */,
 			);
@@ -65,6 +69,15 @@
 				9BC2A6A228EDD919002133ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BC2A70128F453BE002133ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A70228F453E9002133ED /* Hand.swift */,
+				9BC2A70428F455BB002133ED /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC2A69E28EDD917002133ED /* ContentView.swift in Sources */,
+				9BC2A70328F453E9002133ED /* Hand.swift in Sources */,
 				9BC2A69C28EDD917002133ED /* MopconBackwardsClockApp.swift in Sources */,
+				9BC2A70528F455BB002133ED /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
