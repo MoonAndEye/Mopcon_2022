@@ -11,6 +11,7 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
+      BobRossDone.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明

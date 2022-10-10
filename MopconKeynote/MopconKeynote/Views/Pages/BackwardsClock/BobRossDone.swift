@@ -13,12 +13,25 @@ struct BobRossDone: View {
     "完成!你看，很簡單吧"
   }
   
-  private var image: Image {
-    Image("BobRossDone")
+  private var image: AnyView {
+    AnyView(
+      Image("BobRossDone")
+    )
+  }
+  
+  private var clockView: AnyView {
+    AnyView(
+      VStack {
+        Spacer()
+        ClockContainerView()
+        Spacer()
+      }
+      
+    )
   }
   
   var body: some View {
-    OneImageWithTitle(title: titleText, image: image)
+      TwoViewHAlignment(titleText: titleText, view0: image, view1: clockView)
   }
 }
 
