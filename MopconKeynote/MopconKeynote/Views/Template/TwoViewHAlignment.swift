@@ -26,7 +26,9 @@ struct TwoViewHAlignment: View {
       HStack {
         Group {
           view0
+            .frame(maxWidth: .infinity)
           view1
+            .frame(maxWidth: .infinity)
         }
         .padding()
       }
@@ -62,5 +64,6 @@ struct TwoViewHAlignment_Previews: PreviewProvider {
   
   static var previews: some View {
     TwoViewHAlignment(titleText: titleText, view0: view0, view1: view1)
+      .frame(width: 1440, height: 900)
   }
 }

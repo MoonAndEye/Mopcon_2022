@@ -42,6 +42,15 @@
 		9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */; };
 		9BC2A6E628F2857A002133ED /* TwoViewHAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */; };
 		9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */; };
+		9BC2A6EA28F441D2002133ED /* BobRossDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E928F441D2002133ED /* BobRossDone.swift */; };
+		9BC2A6EF28F4477C002133ED /* Clockwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6EE28F4477C002133ED /* Clockwork.swift */; };
+		9BC2A6F128F447AB002133ED /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6F028F447AB002133ED /* Tick.swift */; };
+		9BC2A6F328F447BC002133ED /* ClockDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6F228F447BC002133ED /* ClockDialView.swift */; };
+		9BC2A6F728F44824002133ED /* ClockContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6F628F44824002133ED /* ClockContainerView.swift */; };
+		9BC2A6FA28F44874002133ED /* AngleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6F928F44874002133ED /* AngleUtility.swift */; };
+		9BC2A6FC28F44886002133ED /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6FB28F44886002133ED /* DateUtility.swift */; };
+		9BC2A6FE28F448A8002133ED /* BackwardsNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6FD28F448A8002133ED /* BackwardsNumberView.swift */; };
+		9BC2A70028F44C3E002133ED /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6FF28F44C3E002133ED /* ArcView.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -86,6 +95,15 @@
 		9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotsOfThingIsYouDontKnow.swift; sourceTree = "<group>"; };
 		9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewHAlignment.swift; sourceTree = "<group>"; };
 		9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDeprecated.swift; sourceTree = "<group>"; };
+		9BC2A6E928F441D2002133ED /* BobRossDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRossDone.swift; sourceTree = "<group>"; };
+		9BC2A6EE28F4477C002133ED /* Clockwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clockwork.swift; sourceTree = "<group>"; };
+		9BC2A6F028F447AB002133ED /* Tick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
+		9BC2A6F228F447BC002133ED /* ClockDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockDialView.swift; sourceTree = "<group>"; };
+		9BC2A6F628F44824002133ED /* ClockContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockContainerView.swift; sourceTree = "<group>"; };
+		9BC2A6F928F44874002133ED /* AngleUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleUtility.swift; sourceTree = "<group>"; };
+		9BC2A6FB28F44886002133ED /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		9BC2A6FD28F448A8002133ED /* BackwardsNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsNumberView.swift; sourceTree = "<group>"; };
+		9BC2A6FF28F44C3E002133ED /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -172,6 +190,7 @@
 		9B404B8E28D8ADE400D9607D /* BackwardsClock */ = {
 			isa = PBXGroup;
 			children = (
+				9BC2A6EB28F44681002133ED /* GraceBackwardsClock */,
 				9B404B8F28D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift */,
 				9B404B9128D8C0DF00D9607D /* GraceHopperDefineBugPage.swift */,
 				9B404BBB28D9C30C00D9607D /* GraceCreateFlowMatic.swift */,
@@ -179,6 +198,7 @@
 				9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */,
 				9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */,
 				9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */,
+				9BC2A6E928F441D2002133ED /* BobRossDone.swift */,
 				9B81677828E8235300416A16 /* StartWithHand.swift */,
 			);
 			path = BackwardsClock;
@@ -222,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */,
+				9BC2A6EC28F4475C002133ED /* Models */,
 				9B404B7E28D893B000D9607D /* Style */,
 				9B18F70B28D7608D006F0345 /* Managers */,
 				9B18F70A28D76088006F0345 /* Views */,
@@ -244,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				9BC2A68C28EDB3E2002133ED /* Hand */,
+				9BC2A6FF28F44C3E002133ED /* ArcView.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -279,6 +301,43 @@
 				9BC2A6DF28F2765A002133ED /* SwiftUIUseCaseOverall.swift */,
 			);
 			path = SwiftUIConclustion;
+			sourceTree = "<group>";
+		};
+		9BC2A6EB28F44681002133ED /* GraceBackwardsClock */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A6F028F447AB002133ED /* Tick.swift */,
+				9BC2A6F628F44824002133ED /* ClockContainerView.swift */,
+				9BC2A6F228F447BC002133ED /* ClockDialView.swift */,
+				9BC2A6FD28F448A8002133ED /* BackwardsNumberView.swift */,
+			);
+			path = GraceBackwardsClock;
+			sourceTree = "<group>";
+		};
+		9BC2A6EC28F4475C002133ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A6F828F44858002133ED /* Utilities */,
+				9BC2A6ED28F44761002133ED /* Clockwork */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BC2A6ED28F44761002133ED /* Clockwork */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A6EE28F4477C002133ED /* Clockwork.swift */,
+			);
+			path = Clockwork;
+			sourceTree = "<group>";
+		};
+		9BC2A6F828F44858002133ED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2A6F928F44874002133ED /* AngleUtility.swift */,
+				9BC2A6FB28F44886002133ED /* DateUtility.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,10 +412,12 @@
 			files = (
 				9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */,
 				9BC2A6D428F07F92002133ED /* OneImageWithTitle.swift in Sources */,
+				9BC2A6FC28F44886002133ED /* DateUtility.swift in Sources */,
 				9B404B8728D89BF700D9607D /* ScreenSize.swift in Sources */,
 				9B404B8D28D89F2400D9607D /* InputTextDemoPage.swift in Sources */,
 				9B404BBC28D9C30C00D9607D /* GraceCreateFlowMatic.swift in Sources */,
 				9BC2A6B628F01F38002133ED /* DemoListSeparator.swift in Sources */,
+				9BC2A6FE28F448A8002133ED /* BackwardsNumberView.swift in Sources */,
 				9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */,
 				9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */,
 				9BC2A6E028F2765A002133ED /* SwiftUIUseCaseOverall.swift in Sources */,
@@ -366,7 +427,9 @@
 				9BC2A6D228F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift in Sources */,
 				9B404BBE28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift in Sources */,
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
+				9BC2A6F728F44824002133ED /* ClockContainerView.swift in Sources */,
 				9BC2A6D628F11152002133ED /* ListSeparatorInDiffiOS.swift in Sources */,
+				9BC2A70028F44C3E002133ED /* ArcView.swift in Sources */,
 				9BC2A6D828F1124D002133ED /* ThreeViewHAlignment.swift in Sources */,
 				9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */,
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
@@ -379,15 +442,20 @@
 				9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */,
 				9B81677B28E8252800416A16 /* LeftViewAndRightView.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
+				9BC2A6F328F447BC002133ED /* ClockDialView.swift in Sources */,
+				9BC2A6EA28F441D2002133ED /* BobRossDone.swift in Sources */,
 				9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */,
 				9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
+				9BC2A6F128F447AB002133ED /* Tick.swift in Sources */,
 				9B81677928E8235300416A16 /* StartWithHand.swift in Sources */,
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,
+				9BC2A6FA28F44874002133ED /* AngleUtility.swift in Sources */,
 				9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */,
 				9BC2A6AA28EEE1A8002133ED /* NormalTemplate.swift in Sources */,
 				9B404B9228D8C0DF00D9607D /* GraceHopperDefineBugPage.swift in Sources */,
 				9B404B9528D93D7700D9607D /* LeftTextAndRightImage.swift in Sources */,
+				9BC2A6EF28F4477C002133ED /* Clockwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

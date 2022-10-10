@@ -11,6 +11,7 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
+      BobRossDone.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -33,6 +34,8 @@ extension KeynoteView {
       BeforeStartDemoCrossFinger.self,
       /// 準備 live coding 之前，先介紹 hand view
       StartWithHand.self,
+      /// 爆炸頭油畫完成，Bob Ross done
+      BobRossDone.self,
       /// 說明如何選 SwiftUI / UIKit
       HowToChoose.self,
       /// 使用 SwiftUI 帶來不方便的地方
@@ -59,7 +62,7 @@ struct KeynoteView: View {
   
   @State var currentPageIndex = 0
   
-  private var frameWidth: CGFloat {
+  private var arrowFrameWidth: CGFloat {
     return 50
   }
   
@@ -85,7 +88,7 @@ struct KeynoteView: View {
         switchToPreviousPage()
       } label: {
         Image(systemName: "arrow.left")
-          .frame(minWidth: frameWidth)
+          .frame(minWidth: arrowFrameWidth)
       }
       .keyboardShortcut(KeyEquivalent.leftArrow, modifiers: [])
       
@@ -93,7 +96,7 @@ struct KeynoteView: View {
         switchToNextPage()
       } label: {
         Image(systemName: "arrow.right")
-          .frame(minWidth: frameWidth)
+          .frame(minWidth: arrowFrameWidth)
       }
       .keyboardShortcut(KeyEquivalent.rightArrow, modifiers: [])
       
@@ -106,7 +109,7 @@ struct KeynoteView: View {
   private func switchToPreviousPage() {
     if currentPageIndex > 0 {
       currentPageIndex -= 1
-      print("go to previous page")
+      print("go to previous page, current: \(pages[currentPageIndex])")
     }
   }
   
@@ -115,8 +118,8 @@ struct KeynoteView: View {
     if currentPageIndex + 1 == pages.count {
       return
     }
-    print("go to next page")
     currentPageIndex += 1
+    print("go to next page, current: \(pages[currentPageIndex])")
   }
   
   private var logoArea: some View {
@@ -169,6 +172,9 @@ extension KeynoteView {
           ClockCompositionIntro()
         case is StartWithHand.Type:
           StartWithHand()
+        case is BobRossDone.Type:
+          /// 爆炸頭油畫完成，Bob Ross done
+          BobRossDone()
         case is HowToChoose.Type:
           /// 說明如何選 SwiftUI / UIKit
           HowToChoose()
