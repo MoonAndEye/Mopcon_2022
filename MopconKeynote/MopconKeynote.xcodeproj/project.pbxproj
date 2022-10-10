@@ -42,6 +42,7 @@
 		9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */; };
 		9BC2A6E628F2857A002133ED /* TwoViewHAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */; };
 		9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */; };
+		9BC2A6EA28F441D2002133ED /* BobRossDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E928F441D2002133ED /* BobRossDone.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -86,6 +87,7 @@
 		9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotsOfThingIsYouDontKnow.swift; sourceTree = "<group>"; };
 		9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewHAlignment.swift; sourceTree = "<group>"; };
 		9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDeprecated.swift; sourceTree = "<group>"; };
+		9BC2A6E928F441D2002133ED /* BobRossDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRossDone.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */,
 				9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */,
 				9BD2657428DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift */,
+				9BC2A6E928F441D2002133ED /* BobRossDone.swift */,
 				9B81677828E8235300416A16 /* StartWithHand.swift */,
 			);
 			path = BackwardsClock;
@@ -379,6 +382,7 @@
 				9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */,
 				9B81677B28E8252800416A16 /* LeftViewAndRightView.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
+				9BC2A6EA28F441D2002133ED /* BobRossDone.swift in Sources */,
 				9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */,
 				9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
