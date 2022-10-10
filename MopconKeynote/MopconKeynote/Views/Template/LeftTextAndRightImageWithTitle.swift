@@ -29,6 +29,7 @@ struct LeftTextAndRightImageWithTitle: View {
       
       Text(title)
         .font(.system(size: MKFontSize.textTitle))
+        .fontWeight(.semibold)
         .padding()
       
       HStack(alignment: .top) {

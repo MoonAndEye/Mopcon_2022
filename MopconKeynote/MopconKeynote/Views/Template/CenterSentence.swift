@@ -19,6 +19,7 @@ struct CenterSentence: View {
       Spacer()
       Text(string)
         .font(.system(size: MKFontSize.centerSentence))
+        .fontWeight(.semibold)
         .lineSpacing(20)
         .multilineTextAlignment(.center)
         .padding(.vertical, verticalPadding)

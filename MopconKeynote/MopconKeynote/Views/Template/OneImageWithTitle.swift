@@ -19,6 +19,7 @@ struct OneImageWithTitle: View {
       
       Text(title)
         .font(.system(size: MKFontSize.textTitle))
+        .fontWeight(.semibold)
         .padding()
       image
         .resizable()

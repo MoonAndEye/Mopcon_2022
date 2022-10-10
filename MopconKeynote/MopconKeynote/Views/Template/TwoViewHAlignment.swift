@@ -1,13 +1,13 @@
 //
-//  ThreeViewHAlignment.swift
+//  TwoViewHAlignment.swift
 //  MopconKeynote
 //
-//  Created by cm0679 on 2022/10/8.
+//  Created by cm0679 on 2022/10/9.
 //
 
 import SwiftUI
 
-struct ThreeViewHAlignment: View {
+struct TwoViewHAlignment: View {
   
   var titleText = ""
   
@@ -15,10 +15,7 @@ struct ThreeViewHAlignment: View {
   
   var view1: AnyView
   
-  var view2: AnyView
-  
   var body: some View {
-    
     VStack(alignment: .leading) {
       
       Text(titleText)
@@ -30,22 +27,20 @@ struct ThreeViewHAlignment: View {
         Group {
           view0
           view1
-          view2
         }
         .padding()
       }
     }
   }
   
-  init(titleText: String, view0: AnyView, view1: AnyView, view2: AnyView) {
+  init(titleText: String, view0: AnyView, view1: AnyView) {
     self.titleText = titleText
     self.view0 = view0
     self.view1 = view1
-    self.view2 = view2
   }
 }
 
-struct ThreeViewHAlignment_Previews: PreviewProvider {
+struct TwoViewHAlignment_Previews: PreviewProvider {
   
   static var titleText: String {
     "this is title"
@@ -65,15 +60,7 @@ struct ThreeViewHAlignment_Previews: PreviewProvider {
     )
   }
   
-  static var view2: AnyView {
-    AnyView(
-      Rectangle()
-        .fill(.green)
-    )
-  }
-  
   static var previews: some View {
-    ThreeViewHAlignment(titleText: titleText, view0: view0, view1: view1, view2: view2)
-      .frame(width: 800, height: 600)
+    TwoViewHAlignment(titleText: titleText, view0: view0, view1: view1)
   }
 }

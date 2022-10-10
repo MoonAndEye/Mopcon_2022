@@ -37,6 +37,11 @@
 		9BC2A6D428F07F92002133ED /* OneImageWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6D328F07F92002133ED /* OneImageWithTitle.swift */; };
 		9BC2A6D628F11152002133ED /* ListSeparatorInDiffiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6D528F11152002133ED /* ListSeparatorInDiffiOS.swift */; };
 		9BC2A6D828F1124D002133ED /* ThreeViewHAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6D728F1124D002133ED /* ThreeViewHAlignment.swift */; };
+		9BC2A6E028F2765A002133ED /* SwiftUIUseCaseOverall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6DF28F2765A002133ED /* SwiftUIUseCaseOverall.swift */; };
+		9BC2A6E228F27A98002133ED /* SegueAfterListSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E128F27A98002133ED /* SegueAfterListSeparator.swift */; };
+		9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */; };
+		9BC2A6E628F2857A002133ED /* TwoViewHAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */; };
+		9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -76,6 +81,11 @@
 		9BC2A6D328F07F92002133ED /* OneImageWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneImageWithTitle.swift; sourceTree = "<group>"; };
 		9BC2A6D528F11152002133ED /* ListSeparatorInDiffiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSeparatorInDiffiOS.swift; sourceTree = "<group>"; };
 		9BC2A6D728F1124D002133ED /* ThreeViewHAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewHAlignment.swift; sourceTree = "<group>"; };
+		9BC2A6DF28F2765A002133ED /* SwiftUIUseCaseOverall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIUseCaseOverall.swift; sourceTree = "<group>"; };
+		9BC2A6E128F27A98002133ED /* SegueAfterListSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueAfterListSeparator.swift; sourceTree = "<group>"; };
+		9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotsOfThingIsYouDontKnow.swift; sourceTree = "<group>"; };
+		9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewHAlignment.swift; sourceTree = "<group>"; };
+		9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDeprecated.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -185,6 +195,7 @@
 				9B81677A28E8252800416A16 /* LeftViewAndRightView.swift */,
 				9BC2A6A928EEE1A8002133ED /* NormalTemplate.swift */,
 				9BC2A6D728F1124D002133ED /* ThreeViewHAlignment.swift */,
+				9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -262,6 +273,10 @@
 				9BC2A6AF28EFC7CC002133ED /* SwiftUIDifficults.swift */,
 				9BC2A6B528F01F38002133ED /* DemoListSeparator.swift */,
 				9BC2A6D528F11152002133ED /* ListSeparatorInDiffiOS.swift */,
+				9BC2A6E128F27A98002133ED /* SegueAfterListSeparator.swift */,
+				9BC2A6E328F27E55002133ED /* LotsOfThingIsYouDontKnow.swift */,
+				9BC2A6E728F3E3D4002133ED /* NavigationViewDeprecated.swift */,
+				9BC2A6DF28F2765A002133ED /* SwiftUIUseCaseOverall.swift */,
 			);
 			path = SwiftUIConclustion;
 			sourceTree = "<group>";
@@ -344,6 +359,8 @@
 				9BC2A6B628F01F38002133ED /* DemoListSeparator.swift in Sources */,
 				9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */,
 				9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */,
+				9BC2A6E028F2765A002133ED /* SwiftUIUseCaseOverall.swift in Sources */,
+				9BC2A6E628F2857A002133ED /* TwoViewHAlignment.swift in Sources */,
 				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
 				9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */,
 				9BC2A6D228F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift in Sources */,
@@ -355,12 +372,15 @@
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
 				9BC2A6AC28EF0343002133ED /* HowToChoose.swift in Sources */,
 				9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */,
+				9BC2A6E228F27A98002133ED /* SegueAfterListSeparator.swift in Sources */,
 				9BC2A68E28EDC531002133ED /* HandShape.swift in Sources */,
 				9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */,
 				9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */,
 				9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */,
 				9B81677B28E8252800416A16 /* LeftViewAndRightView.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
+				9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */,
+				9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
 				9B81677928E8235300416A16 /* StartWithHand.swift in Sources */,
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,

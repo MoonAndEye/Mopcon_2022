@@ -19,6 +19,7 @@ struct NormalTemplate: View {
       VStack(alignment: .leading) {
         Text(titleText)
           .font(.system(size: MKFontSize.textTitle))
+          .fontWeight(.semibold)
           .padding(.top)
         Text(contentText)
           .multilineTextAlignment(.leading)
@@ -28,7 +29,7 @@ struct NormalTemplate: View {
           .padding(.trailing, 50)
         Spacer()
       }
-      .padding(.leading, 20)
+      .padding(.leading, 35)
       .padding()
       Spacer()
     }
