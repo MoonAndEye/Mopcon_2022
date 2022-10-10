@@ -11,8 +11,6 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
-      /// 不同版本 iOS 要用不同方法把分隔線去掉
-      ListSeparatorInDiffiOS.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -42,7 +40,17 @@ extension KeynoteView {
       /// 使用 SwiftUI 的好處
       SwiftUIPros.self,
       /// 展示 List separator UI
-      DemoListSeparator.self
+      DemoListSeparator.self,
+      /// 不同版本 iOS 要用不同方法把分隔線去掉
+      ListSeparatorInDiffiOS.self,
+      /// 在 List 之後的過場
+      SegueAfterListSeparator.self,
+      /// 多的是你不知道的事
+      LotsOfThingIsYouDontKnow.self,
+      /// 這次是 NavigationView 被 deprecated，下次呢?
+      NavigationViewDeprecated.self,
+      /// 各種已經實作的 SwifUI 範例
+      SwiftUIUseCaseOverall.self,
     ]
   }
 }
@@ -64,6 +72,8 @@ struct KeynoteView: View {
       getPage(at: currentPageIndex)
       
       Spacer()
+      logoArea
+        .frame(height: 75)
     }
   }
   
@@ -107,6 +117,15 @@ struct KeynoteView: View {
     }
     print("go to next page")
     currentPageIndex += 1
+  }
+  
+  private var logoArea: some View {
+    HStack {
+      Spacer()
+      Image("Logo_Banner2")
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+    }
   }
 }
 
@@ -166,6 +185,19 @@ extension KeynoteView {
         case is ListSeparatorInDiffiOS.Type:
           /// 不同版本 iOS 要用不同方法把分隔線去掉
           ListSeparatorInDiffiOS()
+        case is LotsOfThingIsYouDontKnow.Type:
+          /// 多的是你不知道的事.
+          LotsOfThingIsYouDontKnow()
+        case is SegueAfterListSeparator.Type:
+          /// 在 List 之後的過場
+          SegueAfterListSeparator()
+        case is SwiftUIUseCaseOverall.Type:
+          /// 各種已經實作的 SwifUI 範例
+          SwiftUIUseCaseOverall()
+          
+        case is NavigationViewDeprecated.Type:
+          /// 這次是 NavigationView 被 deprecated，下次呢?
+          NavigationViewDeprecated()
         default:
           DummyPage1()
       }
