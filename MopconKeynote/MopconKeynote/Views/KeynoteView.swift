@@ -11,7 +11,6 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
-      BobRossDone.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -54,6 +53,8 @@ extension KeynoteView {
       NavigationViewDeprecated.self,
       /// 各種已經實作的 SwifUI 範例
       SwiftUIUseCaseOverall.self,
+      /// 問大家我 demo 了幾個 app?
+      HowManyAppsDemoedThisTalk.self,
     ]
   }
 }
@@ -204,6 +205,10 @@ extension KeynoteView {
         case is NavigationViewDeprecated.Type:
           /// 這次是 NavigationView 被 deprecated，下次呢?
           NavigationViewDeprecated()
+          
+        case is HowManyAppsDemoedThisTalk.Type:
+          /// 問大家我 demo 了幾個 app?
+          HowManyAppsDemoedThisTalk()
         default:
           DummyPage1()
       }
