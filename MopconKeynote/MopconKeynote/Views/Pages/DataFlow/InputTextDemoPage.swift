@@ -15,30 +15,33 @@ struct InputTextDemoPage: View {
   
   var body: some View {
     
-    VStack {
-      HStack {
-        introductionView
-        InputTextDemo()
-          .frame(width: width)
-          .border(.black, width: 1.0)
-      }
-    }
+    TwoViewHAlignment(titleText: "", view0: introductionView, view1: inputViewDemo)
   }
   
-  private var introductionView: some View {
-    
-    VStack {
-      Text(getIntroductionText())
-        .font(.system(size: MKFontSize.textBody))
-        .lineSpacing(10)
-      Image("InputDemoCode")
-        .resizable()
-        .scaledToFit()
-    }
+  private var introductionView: AnyView {
+    AnyView(
+      VStack {
+        Text(getIntroductionText())
+          .font(.system(size: MKFontSize.textBody))
+          .minimumScaleFactor(0.4)
+          .lineSpacing(10)
+        Image("InputDemoCode")
+          .resizable()
+          .scaledToFit()
+      }
+    )
   }
   
   private func getIntroductionText() -> String {
-    return "SwiftUI 的程式碼\nUI的改變，是因為狀態改變\nUIKit 不是做不到，也不會做的比較差，只是「方法」不一樣而已。UITextField 使用 delegate/action 的方式，告訴 VC 輸入框的文字變化了"
+    return "這邊舉輸入框為例，如果輸入框沒有文字，就顯示提示詞。如果框入框有文字，從上方呈現輸入框中的文字。\n這個需求對 UIKit 來說不是做不到，也不會做的比較差，只是「方法」不一樣而已。"
+  }
+  
+  private var inputViewDemo: AnyView {
+    AnyView(
+      InputTextDemo()
+        .frame(width: width)
+        .border(.black, width: 1.0)
+    )
   }
 }
 

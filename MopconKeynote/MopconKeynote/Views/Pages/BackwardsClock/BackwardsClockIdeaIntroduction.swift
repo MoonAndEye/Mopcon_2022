@@ -10,33 +10,27 @@ import SwiftUI
 struct BackwardsClockIdeaIntroduction: View {
   
   var body: some View {
-    HStack(alignment: .top) {
-      
-      Group {
-        
-        VStack {
-          Text(getGraceHopperIntroductionTitle())
-            .font(.system(size: MKFontSize.textTitle))
-          Text(getGraceHopperIntroductionBody())
-            .font(.system(size: MKFontSize.textBody))
-            .padding([.leading, .trailing, .top], 20)
-        }
-        .padding()
-        
-        Image("GraceHopperBook")
-          .resizable()
-          .scaledToFit()
-      }
-      .frame(minWidth: 0, maxWidth: .infinity)
-    }
+    LeftTextAndRightImageWithTitle(title: title, text: graceIntrodcution, image: image)
   }
   
-  private func getGraceHopperIntroductionTitle() -> String {
+  private var title: String {
     return "Demo App 的發想來源"
   }
   
-  private func getGraceHopperIntroductionBody() -> String {
-    return "這是一本寫給小孩子的童書，描述葛麗絲．霍普的一生\n葛麗絲這一生所做的事情，和每個寫程式的人，都有一定的關聯"
+  private var graceIntrodcution: AnyView {
+    AnyView(
+      VStack {
+        Group {
+          Text("這是一本寫給小孩子的童書，描述葛麗絲．霍普的一生")
+          Text("葛麗絲這一生所做的事情，和每個寫程式的人，都有一定的關聯")
+        }
+        .padding()
+      }
+    )
+  }
+  
+  private var image: Image {
+    Image("GraceHopperBook")
   }
 }
 

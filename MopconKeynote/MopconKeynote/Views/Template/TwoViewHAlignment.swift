@@ -15,18 +15,25 @@ struct TwoViewHAlignment: View {
   
   var view1: AnyView
   
+  var leadingPadding: CGFloat = 0
+  
   var body: some View {
     VStack(alignment: .leading) {
       
-      Text(titleText)
-        .font(.system(size: MKFontSize.textTitle))
-        .fontWeight(.semibold)
-        .padding(.leading)
-        .padding()
+      if !titleText.isEmpty {
+        Text(titleText)
+          .font(.system(size: MKFontSize.textTitle))
+          .fontWeight(.semibold)
+          .minimumScaleFactor(0.4)
+          .padding(.leading)
+          .padding()
+      }
+      
       HStack {
         Group {
           view0
             .frame(maxWidth: .infinity)
+            .padding(.leading, leadingPadding)
           view1
             .frame(maxWidth: .infinity)
         }

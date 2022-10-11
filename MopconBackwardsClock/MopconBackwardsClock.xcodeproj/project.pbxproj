@@ -12,6 +12,8 @@
 		9BC2A6A328EDD919002133ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2A6A228EDD919002133ED /* Preview Assets.xcassets */; };
 		9BC2A70328F453E9002133ED /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70228F453E9002133ED /* Hand.swift */; };
 		9BC2A70528F455BB002133ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70428F455BB002133ED /* ContentView.swift */; };
+		9BC2A70728F48BFD002133ED /* ClockNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70628F48BFD002133ED /* ClockNumberView.swift */; };
+		9BC2A70E28F57D40002133ED /* ClockContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70D28F57D40002133ED /* ClockContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9BC2A6A228EDD919002133ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BC2A70228F453E9002133ED /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		9BC2A70428F455BB002133ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BC2A70628F48BFD002133ED /* ClockNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockNumberView.swift; sourceTree = "<group>"; };
+		9BC2A70D28F57D40002133ED /* ClockContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				9BC2A70228F453E9002133ED /* Hand.swift */,
+				9BC2A70628F48BFD002133ED /* ClockNumberView.swift */,
+				9BC2A70D28F57D40002133ED /* ClockContainerView.swift */,
 				9BC2A70428F455BB002133ED /* ContentView.swift */,
 			);
 			path = Views;
@@ -150,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC2A70E28F57D40002133ED /* ClockContainerView.swift in Sources */,
+				9BC2A70728F48BFD002133ED /* ClockNumberView.swift in Sources */,
 				9BC2A70328F453E9002133ED /* Hand.swift in Sources */,
 				9BC2A69C28EDD917002133ED /* MopconBackwardsClockApp.swift in Sources */,
 				9BC2A70528F455BB002133ED /* ContentView.swift in Sources */,

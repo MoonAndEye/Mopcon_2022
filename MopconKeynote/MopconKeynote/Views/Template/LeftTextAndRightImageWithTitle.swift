@@ -11,7 +11,7 @@ struct LeftTextAndRightImageWithTitle: View {
   
   var title: String
   
-  var text: AnyView
+  var textView: AnyView
   
   var image: Image
   
@@ -37,7 +37,7 @@ struct LeftTextAndRightImageWithTitle: View {
         Group {
           VStack {
             Spacer()
-            text
+            textView
               .font(.system(size: MKFontSize.textBody))
               .lineSpacing(20)
               .padding(.top, topPadding)
@@ -57,7 +57,7 @@ struct LeftTextAndRightImageWithTitle: View {
   
   init(title: String, text: AnyView, image: Image) {
     self.title = title
-    self.text = text
+    self.textView = text
     self.image = image
   }
 }

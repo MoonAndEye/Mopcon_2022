@@ -10,7 +10,7 @@ import SwiftUI
 struct SegueAfterListSeparator: View {
   
   private var contentText: String {
-    "除了 List separator\n還有其他不同版本要不同作法的地方嗎?"
+    "除了 List separator\n還有其他不同版本需要不同作法的地方嗎?"
   }
   
   var body: some View {

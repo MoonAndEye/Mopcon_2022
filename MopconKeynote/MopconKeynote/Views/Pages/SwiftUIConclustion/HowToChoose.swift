@@ -14,7 +14,7 @@ struct HowToChoose: View {
   }
   
   private var contentText: String {
-    "- 專案可控制程度\n- 可以和「需求方」談判的程度\n- 可以支援 iOS 13 以上嗎?\n- 設計上是不是一個主頁式的 App?(如果是的話，比較適合)\n- 設計上是不是多分頁型 App?(如果不是的話，UIKit「可能」比較適合)"
+    "． 專案可控制程度\n． 可以和「需求方」談判的程度\n． 可以支援 iOS 13 以上嗎?\n． 設計上是不是一個主頁式的 App?(如果是的話，比較適合)\n． 設計上是不是多分頁型 App?(如果不是的話，UIKit「可能」比較適合)"
   }
   
   var body: some View {

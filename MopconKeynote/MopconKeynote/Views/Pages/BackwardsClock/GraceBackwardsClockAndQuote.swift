@@ -18,7 +18,21 @@ struct GraceBackwardsClockAndQuote: View {
   }
   
   var text: AnyView {
-    AnyView(Text(getGraceQuote()))
+    AnyView(
+      VStack {
+        Group {
+          Text("人們其實討厭改變，他們總是說")
+          Text("「我們一直都這麼做的」")
+          Text("但，我想要反抗這一點")
+          Text("所以我掛了一個逆著走的時鐘在牆上")
+            .padding()
+          Text("為了致敬葛麗絲的精神，我用 SwiftUI 做了個逆著走的時鐘，來提醒自己要學著改變想法")
+        }
+        .padding()
+      }
+        .font(.system(size: MKFontSize.textBody))
+        .lineSpacing(10)
+    )
   }
   
   private func getGraceQuote() -> String {

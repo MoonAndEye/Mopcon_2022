@@ -18,16 +18,29 @@ struct GraceCreateFlowMatic: View {
   }
   
   var text: AnyView {
-    AnyView(Text(getGraceHopperFlowMaticText()))
+    AnyView(
+      VStack(alignment: .leading) {
+        Group {
+          Text("那時候寫程式，是人類寫出電腦可理解的語言，全都是0、1組成的編碼，很容易出錯")
+          Text("葛麗絲提出開發高級程式語言的想法。讓電腦去理解人類的語言")
+          Text("葛麗絲有 COBOL 之母的稱號")
+        }
+        .padding()
+      }
+        .font(.system(size: MKFontSize.textBody))
+        .lineSpacing(10)
+        
+    )
   }
   
-  private func getGraceHopperFlowMaticText() -> String {
-    return "那時候寫程式，是人類寫出電腦可理解的語言，全都是0、1組成的編碼，很容易出錯。葛麗絲提出開發高級程式語言的想法。讓電腦去理解人類的語言\n後來創造了現代第一個編譯器 A-0 系統，以及商用電腦程式語言「COBOL」\n被譽為 COBOL 之母"
-  }
+//  private func getGraceHopperFlowMaticText() -> String {
+//    return "那時候寫程式，是人類寫出電腦可理解的語言，全都是0、1組成的編碼，很容易出錯。葛麗絲提出開發高級程式語言的想法。讓電腦去理解人類的語言\n後來創造了現代第一個編譯器 A-0 系統，以及商用電腦程式語言「COBOL」\n被譽為 COBOL 之母"
+//  }
 }
 
 struct GraceFlowMatic_Previews: PreviewProvider {
   static var previews: some View {
     GraceCreateFlowMatic()
+      .frame(width: 1440, height: 900)
   }
 }
