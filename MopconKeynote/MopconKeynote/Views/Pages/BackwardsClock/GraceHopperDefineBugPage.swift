@@ -15,7 +15,21 @@ struct GraceHopperDefineBugPage: View {
   
   var text: AnyView {
     
-    AnyView(Text(getGraceHopperDefineBugText()))
+    AnyView(
+      VStack(alignment: .leading) {
+        Group {
+          Text("有一天，通用計算機 Mark II 電腦突然停止運作了")
+          Text("葛麗絲的團隊檢查後，發現是一隻飛蛾卡住了開關")
+          Text("她將飛蛾貼在紀錄簿上")
+          Text("「發現一隻真正的 bug」")
+          Text("從此，找錯誤就稱為 debug")
+        }
+        .padding()
+      }
+        .font(.system(size: MKFontSize.textBody))
+        .lineSpacing(10)
+        .minimumScaleFactor(0.4)
+    )
   }
   
   var imageUp: Image {
@@ -25,14 +39,11 @@ struct GraceHopperDefineBugPage: View {
   var imageDown: Image {
     Image("BugPasteOnBook")
   }
-  
-  private func getGraceHopperDefineBugText() -> String {
-    return "有一天，通用計算機 Mark II 電腦突然停止運作了。葛麗絲的團隊檢查後，發現是一隻飛蛾卡住了開關。\n她將飛蛾貼在紀錄上，「發現一隻真正的 bug」，從此，找錯誤就稱為 debug"
-  }
 }
 
 struct GraceHopperDefineBugPage_Previews: PreviewProvider {
   static var previews: some View {
     GraceHopperDefineBugPage()
-    }
+      .frame(width: 1440, height: 900)
+  }
 }

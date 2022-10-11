@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LeftTextAndRightImage: View {
   
-  var text: AnyView
+  var textView: AnyView
   
   var image: Image
   
@@ -27,7 +27,7 @@ struct LeftTextAndRightImage: View {
       Group {
         VStack {
           Spacer()
-          text
+          textView
             .font(.system(size: textFont))
             .lineSpacing(20)
             .padding(.top, topPadding)
@@ -36,16 +36,20 @@ struct LeftTextAndRightImage: View {
           Spacer()
         }
         
-        image
-          .resizable()
-          .scaledToFit()
+        VStack {
+          Spacer()
+          image
+            .resizable()
+            .scaledToFit()
+          Spacer()
+        }
       }
       .frame(minWidth: 0, maxWidth: .infinity)
     }
   }
   
   init(text: AnyView, image: Image) {
-    self.text = text
+    self.textView = text
     self.image = image
   }
 }

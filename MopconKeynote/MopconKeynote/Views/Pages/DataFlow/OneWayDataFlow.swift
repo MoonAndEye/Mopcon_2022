@@ -9,24 +9,21 @@ import SwiftUI
 
 struct OneWayDataFlow: View {
   
-  var body: some View {
-    
-    VStack {
-      
-      Text(getDataFlowIntroduction())
-        .font(.system(size: MKFontSize.textBody))
-        .dynamicTypeSize(.large)
-        .padding()
-      
-      Image("StateAndDataFlow")
-        .resizable()
-        .scaledToFit()
-    }
+  private var textView: AnyView {
+    AnyView(
+      Text("SwiftUI 是用聲明式的方式來告訴框架該如何繪製 UI。\n要求改變的訊號可能是從 external event 或是使用者發動，觸發了 action，改變 State。\n當 State 改變，SwiftUI 會自動去更新相關的 UI\n在以前 UIKit 框架下，這個角色是 ViewController 的職責")
+    )
   }
   
-  private func getDataFlowIntroduction() -> String {
-    return "SwiftUI 是用聲明式的方式來告訴框架該如何繪制 UI。\n要求改變的訊號可能是從 external event 或是使用者發動，觸發了 action，改變 State。\n當 State 改變，SwiftUI 會自動去更新相關的 UI\n在 UIKit 框架下，這個角色是 ViewController 的職責"
+  private var image: Image {
+    Image("StateAndDataFlow")
   }
+  
+  var body: some View {
+    
+    LeftTextAndRightImage(text: textView, image: image)
+  }
+  
 }
 
 struct OneWayDataFlow_Previews: PreviewProvider {

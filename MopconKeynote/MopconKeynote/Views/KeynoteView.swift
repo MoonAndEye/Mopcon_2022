@@ -11,7 +11,8 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
-      BobRossDone.self,
+      /// 致謝頁
+//      Acknowledgements.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -38,10 +39,10 @@ extension KeynoteView {
       BobRossDone.self,
       /// 說明如何選 SwiftUI / UIKit
       HowToChoose.self,
-      /// 使用 SwiftUI 帶來不方便的地方
-      SwiftUIDifficults.self,
       /// 使用 SwiftUI 的好處
       SwiftUIPros.self,
+      /// 使用 SwiftUI 帶來不方便的地方
+      SwiftUIDifficults.self,
       /// 展示 List separator UI
       DemoListSeparator.self,
       /// 不同版本 iOS 要用不同方法把分隔線去掉
@@ -54,6 +55,8 @@ extension KeynoteView {
       NavigationViewDeprecated.self,
       /// 各種已經實作的 SwifUI 範例
       SwiftUIUseCaseOverall.self,
+      /// 問大家我 demo 了幾個 app?
+      HowManyAppsDemoedThisTalk.self,
     ]
   }
 }
@@ -71,6 +74,7 @@ struct KeynoteView: View {
     VStack(spacing: 0) {
       
       pageSwitchView
+        .frame(height: 100)
       
       getPage(at: currentPageIndex)
       
@@ -204,6 +208,14 @@ extension KeynoteView {
         case is NavigationViewDeprecated.Type:
           /// 這次是 NavigationView 被 deprecated，下次呢?
           NavigationViewDeprecated()
+          
+        case is HowManyAppsDemoedThisTalk.Type:
+          /// 問大家我 demo 了幾個 app?
+          HowManyAppsDemoedThisTalk()
+          
+        case is Acknowledgements.Type:
+          /// 致謝頁
+          Acknowledgements()
         default:
           DummyPage1()
       }
