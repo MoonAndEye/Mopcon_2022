@@ -23,6 +23,10 @@ struct ClockContainerView: View {
   private var timer = Timer.publish(every: 0.1,  on: .main, in: .common)
     .autoconnect()
   
+  // mopcon121: 宣告 angleUtility
+  // next: onRecieve 接上角度
+  private var angleUtility: AngleUtility = .init()
+  
   var body: some View {
     
     // mopcon110: 畫出錶盤，加上數字
@@ -35,7 +39,7 @@ struct ClockContainerView: View {
       // mopcon111: 三根針
       // next: rotation 改角度後，加上 state
       HandShape(handLength: .hour)
-        .fill(.black)
+        .fill(.yellow)
         .rotationEffect(hourAngle)
       HandShape(handLength: .minute)
         .fill(.blue)
@@ -48,8 +52,15 @@ struct ClockContainerView: View {
     .padding()
     // mopcon114: 接收 timer 送過來的訊號
     // next: 寫 AngleUtility 將 timestamp 轉換成 時/分/秒針 角度
-    .onReceive(timer) { timestamp in
-      print("got time: \(timestamp)")
+    .onReceive(timer) { time in
+      print("got time: \(time)")
+      
+      // mopcon121: 將 angleUtility 接上 state 變化
+      // next: 看時間狀況，是否要改成 clockwork
+      let timeInterval = time.timeIntervalSince1970
+      secondAngle = .degrees(angleUtility.getBackwardsSecondHandDegree(from: timeInterval))
+      minuteAngle = .degrees(angleUtility.getBackwardsMinuteHandDegree(from: timeInterval))
+      hourAngle = .degrees(angleUtility.getBackwardsHourHandDegree(from: timeInterval))
     }
   }
 }

@@ -18,6 +18,7 @@ struct ClockNumberView: View {
     VStack {
       Text("\(hour)")
         .fontWeight(.black)
+        .foregroundColor(.red)
       // mopcon108: 將字轉正
       // next: 做出一圈 1 ~ 12 的數字錶面
         .rotationEffect(.degrees(Double(30 * hour)))

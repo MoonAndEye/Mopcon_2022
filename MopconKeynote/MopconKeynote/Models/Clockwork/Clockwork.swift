@@ -50,9 +50,9 @@ class Clockwork: ObservableObject {
     
     private func calculateAngle(from timeInterval: TimeInterval) {
         
-        secondAngle = angleUtility.getBackwardsSecondHandRadius(from: timeInterval)
-        minuteAngle = angleUtility.getBackwardsMinuteHandRadius(from: timeInterval)
-        hourAngle = angleUtility.getBackwardsHourHandRadius(from: timeInterval)
+        secondAngle = angleUtility.getBackwardsSecondHandDegree(from: timeInterval)
+        minuteAngle = angleUtility.getBackwardsMinuteHandDegree(from: timeInterval)
+        hourAngle = angleUtility.getBackwardsHourHandDegree(from: timeInterval)
     }
     
     private func update(timeInterval: TimeInterval) {

@@ -19,7 +19,7 @@ struct AngleUtility {
     return DateUtility()
   }
   
-  func getSecondHandRadius(from timeInterval: TimeInterval) -> Double {
+  func getSecondHandDegree(from timeInterval: TimeInterval) -> Double {
 
       guard let second = dateUtility.getSecond(from: timeInterval) else {
           return 0
@@ -28,11 +28,11 @@ struct AngleUtility {
       return (Double(second) / secondToMinute) * 360
   }
 
-  func getBackwardsSecondHandRadius(from timeInterval: TimeInterval) -> Double {
-      return -getSecondHandRadius(from: timeInterval)
+  func getBackwardsSecondHandDegree(from timeInterval: TimeInterval) -> Double {
+      return -getSecondHandDegree(from: timeInterval)
   }
 
-  func getMinuteHandRadius(from timeInterval: TimeInterval) -> Double {
+  func getMinuteHandDegree(from timeInterval: TimeInterval) -> Double {
 
       guard let minute = dateUtility.getMinute(from: timeInterval) else {
                 return 0
@@ -41,11 +41,11 @@ struct AngleUtility {
       return (Double(minute) / minuteToHour) * 360
   }
 
-  func getBackwardsMinuteHandRadius(from timeInterval: TimeInterval) -> Double {
-      return -getMinuteHandRadius(from: timeInterval)
+  func getBackwardsMinuteHandDegree(from timeInterval: TimeInterval) -> Double {
+      return -getMinuteHandDegree(from: timeInterval)
   }
 
-  func getHourHandRadius(from timeInterval: TimeInterval) -> Double {
+  func getHourHandDegree(from timeInterval: TimeInterval) -> Double {
 
       guard let hour = dateUtility.getHour(from: timeInterval),
             let minute = dateUtility.getMinute(from: timeInterval) else {
@@ -54,15 +54,15 @@ struct AngleUtility {
 
       let hourMod = hour % hourToOneCircle
       let majorRadius = (Double(hourMod) / Double(hourToOneCircle)) * 360
-      let minorRadius = getMinorHourRadius(from: minute)
+      let minorRadius = getMinorHourDegree(from: minute)
       return majorRadius + minorRadius
   }
 
-  func getBackwardsHourHandRadius(from timeInterval: TimeInterval) -> Double {
-      return -getHourHandRadius(from: timeInterval)
+  func getBackwardsHourHandDegree(from timeInterval: TimeInterval) -> Double {
+      return -getHourHandDegree(from: timeInterval)
   }
 
-  private func getMinorHourRadius(from minute: Int) -> Double {
+  private func getMinorHourDegree(from minute: Int) -> Double {
 
       return Double(minute) / minuteToHour * 30 //(360 / 12)
   }
