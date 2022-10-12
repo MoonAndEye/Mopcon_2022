@@ -22,12 +22,13 @@ struct InputTextDemo: View {
   var body: some View {
     
     VStack {
-      Text("This is")
+      Text("This is Title")
       Text(text)
         .padding()
-      TextField("Please enter your title", text: $bookTitle)
+      TextField("Please enter your text", text: $bookTitle)
         .padding()
     }
+    .foregroundColor(.black)
     .font(.title)
   }
 }
