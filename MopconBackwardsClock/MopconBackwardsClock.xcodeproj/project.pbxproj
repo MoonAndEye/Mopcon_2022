@@ -15,6 +15,7 @@
 		9BC2A70728F48BFD002133ED /* ClockNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70628F48BFD002133ED /* ClockNumberView.swift */; };
 		9BC2A70E28F57D40002133ED /* ClockContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70D28F57D40002133ED /* ClockContainerView.swift */; };
 		9BEC8DA828F686A3006508A1 /* AngleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC8DA728F686A3006508A1 /* AngleUtility.swift */; };
+		9BEC8DAA28F6FC30006508A1 /* Clockwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC8DA928F6FC30006508A1 /* Clockwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9BC2A70628F48BFD002133ED /* ClockNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockNumberView.swift; sourceTree = "<group>"; };
 		9BC2A70D28F57D40002133ED /* ClockContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockContainerView.swift; sourceTree = "<group>"; };
 		9BEC8DA728F686A3006508A1 /* AngleUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleUtility.swift; sourceTree = "<group>"; };
+		9BEC8DA928F6FC30006508A1 /* Clockwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clockwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				9BC2A70D28F57D40002133ED /* ClockContainerView.swift */,
 				9BEC8DA728F686A3006508A1 /* AngleUtility.swift */,
 				9BC2A70428F455BB002133ED /* ContentView.swift */,
+				9BEC8DA928F6FC30006508A1 /* Clockwork.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				9BC2A70328F453E9002133ED /* Hand.swift in Sources */,
 				9BC2A69C28EDD917002133ED /* MopconBackwardsClockApp.swift in Sources */,
 				9BC2A70528F455BB002133ED /* ContentView.swift in Sources */,
+				9BEC8DAA28F6FC30006508A1 /* Clockwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
