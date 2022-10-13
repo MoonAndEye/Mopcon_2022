@@ -55,9 +55,9 @@ struct LeftTextAndRightImageWithTitle: View {
     }
   }
   
-  init(title: String, text: AnyView, image: Image) {
+  init(title: String, textView: AnyView, image: Image) {
     self.title = title
-    self.textView = text
+    self.textView = textView
     self.image = image
   }
 }
@@ -68,7 +68,7 @@ struct LeftTextAndRightImageWithTitle_Previews: PreviewProvider {
     "This is title"
   }
   
-  static var text: AnyView = {
+  static var textView: AnyView = {
     AnyView(Text("Foo"))
   }()
   
@@ -77,7 +77,7 @@ struct LeftTextAndRightImageWithTitle_Previews: PreviewProvider {
   }()
   
   static var previews: some View {
-    LeftTextAndRightImageWithTitle(title: title, text: text, image: image)
+    LeftTextAndRightImageWithTitle(title: title, textView: textView, image: image)
       .frame(width: 800, height: 600)
   }
 }

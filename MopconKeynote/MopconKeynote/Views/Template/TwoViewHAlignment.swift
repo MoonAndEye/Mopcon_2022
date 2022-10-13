@@ -21,12 +21,16 @@ struct TwoViewHAlignment: View {
     VStack(alignment: .leading) {
       
       if !titleText.isEmpty {
-        Text(titleText)
-          .font(.system(size: MKFontSize.textTitle))
-          .fontWeight(.semibold)
-          .minimumScaleFactor(0.4)
-          .padding(.leading)
-          .padding()
+        HStack(spacing: 0) {
+          Spacer()
+          Text(titleText)
+            .font(.system(size: MKFontSize.textTitle))
+            .fontWeight(.semibold)
+            .minimumScaleFactor(0.4)
+            .padding(.leading)
+            .padding()
+          Spacer()
+        }
       }
       
       HStack {

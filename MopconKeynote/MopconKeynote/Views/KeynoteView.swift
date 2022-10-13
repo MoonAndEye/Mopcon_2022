@@ -61,6 +61,8 @@ extension KeynoteView {
       SwiftUIUseCaseOverall.self,
       /// 友拍拍 promo
       PromoFriendsPop.self,
+      /// 問數量前的過場
+      BeforeAskingAppsCount.self,
       /// 問大家我 demo 了幾個 app?
       HowManyAppsDemoedThisTalk.self,
       /// 不在這場 talk 但開發可能會用到的相關功能
@@ -227,6 +229,9 @@ extension KeynoteView {
           /// 這次是 NavigationView 被 deprecated，下次呢?
           NavigationViewDeprecated()
           
+        case is BeforeAskingAppsCount.Type:
+          /// 問數量前的過場
+          BeforeAskingAppsCount()
         case is HowManyAppsDemoedThisTalk.Type:
           /// 問大家我 demo 了幾個 app?
           HowManyAppsDemoedThisTalk()

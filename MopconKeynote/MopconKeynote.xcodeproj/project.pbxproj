@@ -57,6 +57,7 @@
 		9BCDAF6A28F84DD4006886B1 /* PromoFriendsPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF6928F84DD3006886B1 /* PromoFriendsPop.swift */; };
 		9BCDAF6D28F85579006886B1 /* PromoChipK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF6C28F85579006886B1 /* PromoChipK.swift */; };
 		9BCDAF6F28F8573C006886B1 /* PromoForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF6E28F8573C006886B1 /* PromoForum.swift */; };
+		9BCDAF7128F862E1006886B1 /* BeforeAskingAppsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF7028F862E1006886B1 /* BeforeAskingAppsCount.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -116,6 +117,7 @@
 		9BCDAF6928F84DD3006886B1 /* PromoFriendsPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoFriendsPop.swift; sourceTree = "<group>"; };
 		9BCDAF6C28F85579006886B1 /* PromoChipK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoChipK.swift; sourceTree = "<group>"; };
 		9BCDAF6E28F8573C006886B1 /* PromoForum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoForum.swift; sourceTree = "<group>"; };
+		9BCDAF7028F862E1006886B1 /* BeforeAskingAppsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeAskingAppsCount.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -357,6 +359,7 @@
 		9BC2A70828F4911E002133ED /* BeforeEnding */ = {
 			isa = PBXGroup;
 			children = (
+				9BCDAF7028F862E1006886B1 /* BeforeAskingAppsCount.swift */,
 				9BC2A70928F4914A002133ED /* HowManyAppsDemoedThisTalk.swift */,
 				9B9EADFF28F9001C0022DAB2 /* NotIncludeInThisTalk.swift */,
 				9BC2A70B28F531CF002133ED /* Acknowledgements.swift */,
@@ -487,6 +490,7 @@
 				9BC2A6E828F3E3D4002133ED /* NavigationViewDeprecated.swift in Sources */,
 				9B18F70928D75D8C006F0345 /* KeynoteView.swift in Sources */,
 				9BC2A6F128F447AB002133ED /* Tick.swift in Sources */,
+				9BCDAF7128F862E1006886B1 /* BeforeAskingAppsCount.swift in Sources */,
 				9B81677928E8235300416A16 /* StartWithHand.swift in Sources */,
 				9B404B8028D893C000D9607D /* MKFontSize.swift in Sources */,
 				9BC2A6FA28F44874002133ED /* AngleUtility.swift in Sources */,
