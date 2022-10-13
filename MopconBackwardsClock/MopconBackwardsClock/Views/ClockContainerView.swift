@@ -8,6 +8,8 @@
 import SwiftUI
 import Combine
 
+// mopcon122: 把「機芯」裝進 view 裡面
+// next: 回到 keynote
 struct ClockContainerView: View {
   
   @StateObject private var clockwork = Clockwork()
