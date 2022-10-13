@@ -1,29 +1,26 @@
 //
 //  Clockwork.swift
-//  DemoBackwardsClock
+//  MopconBackwardsClock
 //
-//  Created by cm0679 on 2022/9/6.
+//  Created by cm0679 on 2022/10/12.
 //
 
 import Foundation
 import Combine
+import SwiftUI
 
 // 機芯
 class Clockwork: ObservableObject {
     
     var timer: Cancellable?
     
-    var timestamp: TimeInterval = 0
+    @Published var secondAngle: Angle = .zero
     
-    @Published var secondAngle: Double = .zero
+    @Published var minuteAngle: Angle = .zero
     
-    @Published var minuteAngle: Double = .zero
-    
-    @Published var hourAngle: Double = .zero
+    @Published var hourAngle: Angle = .zero
     
     private var angleUtility: AngleUtility = .init()
-    
-    private var dateUtility: DateUtility = .init()
     
     init() {
         startTimer()
@@ -45,18 +42,12 @@ class Clockwork: ObservableObject {
     private func updateTime() {
         let timestamp = Date().timeIntervalSince1970
         calculateAngle(from: timestamp)
-        self.timestamp = timestamp
     }
     
     private func calculateAngle(from timeInterval: TimeInterval) {
         
-        secondAngle = angleUtility.getBackwardsSecondHandDegree(from: timeInterval)
-        minuteAngle = angleUtility.getBackwardsMinuteHandDegree(from: timeInterval)
-        hourAngle = angleUtility.getBackwardsHourHandDegree(from: timeInterval)
-    }
-    
-    private func update(timeInterval: TimeInterval) {
-        timestamp = timeInterval
-        print("timestamp updated: \(timestamp)")
+        secondAngle = Angle(degrees: angleUtility.getBackwardsSecondHandDegree(from: timeInterval))
+        minuteAngle = Angle(degrees: angleUtility.getBackwardsMinuteHandDegree(from: timeInterval))
+        hourAngle = Angle(degrees: angleUtility.getBackwardsHourHandDegree(from: timeInterval))
     }
 }

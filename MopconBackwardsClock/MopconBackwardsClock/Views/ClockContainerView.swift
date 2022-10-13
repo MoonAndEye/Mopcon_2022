@@ -6,28 +6,30 @@
 //
 
 import SwiftUI
+import Combine
 
+// mopcon122: 把「機芯」裝進 view 裡面
+// next: 回到 keynote
 struct ClockContainerView: View {
+  
+  @StateObject private var clockwork = Clockwork()
+
   var body: some View {
     
-    // mopcon110: 畫出錶盤，加上數字
-    // next: 加上 三根針，並蓋上一個圓蓋
     ZStack {
       Circle()
-        .stroke(.black)
+        .stroke(.pink)
       BackwardsClockNumbers()
       
-      // mopcon111: 三根針
-      // next: rotation 改角度後，加上 state
       HandShape(handLength: .hour)
-        .fill(.black)
-        .rotationEffect(.degrees(60))
+        .fill(.yellow)
+        .rotationEffect(clockwork.hourAngle)
       HandShape(handLength: .minute)
         .fill(.blue)
-        .rotationEffect(.degrees(300))
+        .rotationEffect(clockwork.minuteAngle)
       HandShape(handLength: .second)
         .fill(.red)
-        .rotationEffect(.degrees(180))
+        .rotationEffect(clockwork.secondAngle)
     }
     .frame(width: 300, height: 300)
     .padding()

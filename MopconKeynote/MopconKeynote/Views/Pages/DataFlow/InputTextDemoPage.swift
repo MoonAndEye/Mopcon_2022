@@ -38,9 +38,16 @@ struct InputTextDemoPage: View {
   
   private var inputViewDemo: AnyView {
     AnyView(
-      InputTextDemo()
-        .frame(width: width)
-        .border(.black, width: 1.0)
+      ZStack {
+        Image("WhiteBackgroundWithBezel")
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+        
+        InputTextDemo()
+          .frame(width: width)
+          .border(.black, width: 1.0)
+          .padding(.horizontal,30)
+      }
     )
   }
 }
