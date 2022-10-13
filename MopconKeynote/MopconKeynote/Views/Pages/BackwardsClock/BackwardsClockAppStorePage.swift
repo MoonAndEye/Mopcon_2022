@@ -23,7 +23,7 @@ struct BackwardsClockAppStorePage: View {
   }
   
   private func getTextString() -> String {
-    return "這個 App 只有 4.8 MB，這裡面是有使用第三方 lib 的，不過除了 App Icon 以外，沒有其他 png 檔，都是用 SwiftUI View/Path 和 SFSymbol 組合起來的。第三方 libs 都是用 spm\n\n- Firebase Analytics\n- Firebase Crashlytics\n- RevenueCat(訂閱制第三方服務)"
+    return "這個 App 只有 4.8 MB，這裡面是有使用第三方 lib 的，不過除了 App Icon 以外，沒有其他 png 檔，都是用 SwiftUI View/Path 和 SFSymbol 組合起來的。第三方 libs 都是用 spm\n\n．Firebase Analytics\n．Firebase Crashlytics\n．RevenueCat(訂閱制第三方服務)"
   }
 }
 

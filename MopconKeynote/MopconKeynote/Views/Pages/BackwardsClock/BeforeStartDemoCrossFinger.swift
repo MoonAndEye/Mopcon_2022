@@ -9,7 +9,12 @@ import SwiftUI
 
 struct BeforeStartDemoCrossFinger: View {
   var body: some View {
-    CenterSentence(string: getString())
+    VStack {
+      CenterSentence(string: getString())
+      Image("CodingLikeBuildChurch")
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+    }
   }
   
   private func getString() -> String {
@@ -20,5 +25,6 @@ struct BeforeStartDemoCrossFinger: View {
 struct BeforeStartDemoCrossFinger_Previews: PreviewProvider {
   static var previews: some View {
     BeforeStartDemoCrossFinger()
+      .frame(width: 1440, height: 900)
   }
 }

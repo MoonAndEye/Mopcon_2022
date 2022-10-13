@@ -14,6 +14,8 @@ struct NormalTemplate: View {
   
   var contentText: String = ""
   
+  var lineSpacing: CGFloat = 20
+  
   var body: some View {
     HStack {
       VStack(alignment: .leading) {
@@ -23,12 +25,13 @@ struct NormalTemplate: View {
           .padding(.top)
         Text(contentText)
           .multilineTextAlignment(.leading)
-          .lineSpacing(20)
+          .lineSpacing(lineSpacing)
           .font(.system(size: MKFontSize.textBody))
           .padding(.top)
           .padding(.trailing, 50)
         Spacer()
       }
+      .minimumScaleFactor(0.5)
       .padding(.leading, 35)
       .padding()
       Spacer()

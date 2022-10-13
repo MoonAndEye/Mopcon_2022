@@ -13,6 +13,10 @@ extension KeynoteView {
     [
       /// 開場 Title
       TalkLandingPageView.self,
+      /// ChipK promo
+      PromoChipK.self,
+      /// Forum promo
+      PromoForum.self,
       /// SwiftUI One way data flow 說明
       OneWayDataFlow.self,
       /// 做一個 input demo 的 data flow 範例
@@ -33,6 +37,8 @@ extension KeynoteView {
       BeforeStartDemoCrossFinger.self,
       /// 準備 live coding 之前，先介紹 hand view
       StartWithHand.self,
+      /// 開始寫專案前，先交叉手指
+      BeforeStartDemoCrossFinger.self,
       /// 爆炸頭油畫完成，Bob Ross done
       BobRossDone.self,
       /// 說明如何選 SwiftUI / UIKit
@@ -53,6 +59,8 @@ extension KeynoteView {
       NavigationViewDeprecated.self,
       /// 各種已經實作的 SwifUI 範例
       SwiftUIUseCaseOverall.self,
+      /// 友拍拍 promo
+      PromoFriendsPop.self,
       /// 問大家我 demo 了幾個 app?
       HowManyAppsDemoedThisTalk.self,
       /// 不在這場 talk 但開發可能會用到的相關功能
@@ -206,7 +214,15 @@ extension KeynoteView {
         case is SwiftUIUseCaseOverall.Type:
           /// 各種已經實作的 SwifUI 範例
           SwiftUIUseCaseOverall()
-          
+        case is PromoChipK.Type:
+          /// ChipK promo
+          PromoChipK()
+        case is PromoForum.Type:
+          /// Forum promo
+          PromoForum()
+        case is PromoFriendsPop.Type:
+          /// 友拍拍 promo
+          PromoFriendsPop()
         case is NavigationViewDeprecated.Type:
           /// 這次是 NavigationView 被 deprecated，下次呢?
           NavigationViewDeprecated()

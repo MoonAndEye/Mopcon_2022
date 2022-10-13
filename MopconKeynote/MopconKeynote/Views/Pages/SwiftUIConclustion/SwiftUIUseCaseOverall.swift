@@ -26,31 +26,31 @@ struct SwiftUIUseCaseOverall: View {
   }
   
   private var content0: String {
-    "． 在 UIKit 專案中拿 SwiftUI 來做靜態頁面(不用與後端交互作用的 View)"
+    "．在 UIKit 專案中拿 SwiftUI 來做靜態頁面(不用與後端交互作用的 View)"
   }
   
   private var content0_1: String {
-    "  ． 使用 UIHostingViewController 包 SwiftUI View"
+    "    ．使用 UIHostingViewController 包 SwiftUI View"
   }
   
   private var content1: String {
-    "． 在 UIKit 專案中拿來做 UIKit 不好做，但 SwiftUI 很好作的 View"
+    "．在 UIKit 專案中拿來做 UIKit 不好做，但 SwiftUI 很好作的 View"
   }
   
   private var content1_1: String {
-    "  ． 使用 delegate 和其他頁面/物件進行資料傳遞"
+    "    ．使用 delegate 和其他頁面/物件進行資料傳遞"
   }
   
   private var content2: String {
-    "． 做 macOS 的 app，此專案是純 SwiftUI，但沒有 iOS 版"
+    "．做 macOS 的 app，此專案是純 SwiftUI，但沒有 iOS 版"
   }
   
   private var content3: String {
-    "． 做 Widget 應用類型的 App"
+    "．做 Widget 應用類型的 App"
   }
   
   private var content4: String {
-    "． 個人 side project (葛麗絲逆走鐘)"
+    "．個人 side project (葛麗絲逆走鐘)"
   }
   
   var body: some View {

@@ -54,6 +54,9 @@
 		9BC2A70028F44C3E002133ED /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A6FF28F44C3E002133ED /* ArcView.swift */; };
 		9BC2A70A28F4914A002133ED /* HowManyAppsDemoedThisTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70928F4914A002133ED /* HowManyAppsDemoedThisTalk.swift */; };
 		9BC2A70C28F531CF002133ED /* Acknowledgements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2A70B28F531CF002133ED /* Acknowledgements.swift */; };
+		9BCDAF6A28F84DD4006886B1 /* PromoFriendsPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF6928F84DD3006886B1 /* PromoFriendsPop.swift */; };
+		9BCDAF6D28F85579006886B1 /* PromoChipK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF6C28F85579006886B1 /* PromoChipK.swift */; };
+		9BCDAF6F28F8573C006886B1 /* PromoForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDAF6E28F8573C006886B1 /* PromoForum.swift */; };
 		9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */; };
 		9BD2642C28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */; };
 		9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */; };
@@ -110,6 +113,9 @@
 		9BC2A6FF28F44C3E002133ED /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		9BC2A70928F4914A002133ED /* HowManyAppsDemoedThisTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyAppsDemoedThisTalk.swift; sourceTree = "<group>"; };
 		9BC2A70B28F531CF002133ED /* Acknowledgements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acknowledgements.swift; sourceTree = "<group>"; };
+		9BCDAF6928F84DD3006886B1 /* PromoFriendsPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoFriendsPop.swift; sourceTree = "<group>"; };
+		9BCDAF6C28F85579006886B1 /* PromoChipK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoChipK.swift; sourceTree = "<group>"; };
+		9BCDAF6E28F8573C006886B1 /* PromoForum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoForum.swift; sourceTree = "<group>"; };
 		9BD2642928DBE3E200CB3B43 /* ClockCompositionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockCompositionIntro.swift; sourceTree = "<group>"; };
 		9BD2642B28DC23A600CB3B43 /* BackwardsClockAppStorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsClockAppStorePage.swift; sourceTree = "<group>"; };
 		9BD2657228DC8DAD00CB3B43 /* CenterSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSentence.swift; sourceTree = "<group>"; };
@@ -151,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				9B404B7928D88FD700D9607D /* TalkLandingPageView.swift */,
+				9BCDAF6B28F85569006886B1 /* Promo */,
 				9BC2A6B428F01E9F002133ED /* SwiftUIConclustion */,
 				9B404B8128D8974200D9607D /* DataFlow */,
 				9B404B8E28D8ADE400D9607D /* BackwardsClock */,
@@ -357,6 +364,16 @@
 			path = BeforeEnding;
 			sourceTree = "<group>";
 		};
+		9BCDAF6B28F85569006886B1 /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDAF6C28F85579006886B1 /* PromoChipK.swift */,
+				9BCDAF6E28F8573C006886B1 /* PromoForum.swift */,
+				9BCDAF6928F84DD3006886B1 /* PromoFriendsPop.swift */,
+			);
+			path = Promo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -438,13 +455,16 @@
 				9BC2A6FE28F448A8002133ED /* BackwardsNumberView.swift in Sources */,
 				9BC2A6AE28EF10D4002133ED /* SwiftUIPros.swift in Sources */,
 				9BD2657328DC8DAD00CB3B43 /* CenterSentence.swift in Sources */,
+				9BCDAF6D28F85579006886B1 /* PromoChipK.swift in Sources */,
 				9BC2A6E028F2765A002133ED /* SwiftUIUseCaseOverall.swift in Sources */,
 				9BC2A6E628F2857A002133ED /* TwoViewHAlignment.swift in Sources */,
 				9B18F70D28D760A7006F0345 /* PageManager.swift in Sources */,
+				9BCDAF6A28F84DD4006886B1 /* PromoFriendsPop.swift in Sources */,
 				9BD2657528DC8EA000CB3B43 /* BeforeStartDemoCrossFinger.swift in Sources */,
 				9BC2A6D228F07E7B002133ED /* LeftTextAndRightImageWithTitle.swift in Sources */,
 				9B404BBE28D9C47F00D9607D /* GraceBackwardsClockAndQuote.swift in Sources */,
 				9B404B7A28D88FD700D9607D /* TalkLandingPageView.swift in Sources */,
+				9BCDAF6F28F8573C006886B1 /* PromoForum.swift in Sources */,
 				9BC2A6F728F44824002133ED /* ClockContainerView.swift in Sources */,
 				9BC2A6D628F11152002133ED /* ListSeparatorInDiffiOS.swift in Sources */,
 				9BC2A70028F44C3E002133ED /* ArcView.swift in Sources */,
@@ -605,7 +625,7 @@
 				CODE_SIGN_ENTITLEMENTS = MopconKeynote/MopconKeynote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20221013;
 				DEVELOPMENT_ASSET_PATHS = "\"MopconKeynote/Preview Content\"";
 				DEVELOPMENT_TEAM = PJPD95M4QP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -633,7 +653,7 @@
 				CODE_SIGN_ENTITLEMENTS = MopconKeynote/MopconKeynote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20221013;
 				DEVELOPMENT_ASSET_PATHS = "\"MopconKeynote/Preview Content\"";
 				DEVELOPMENT_TEAM = PJPD95M4QP;
 				ENABLE_HARDENED_RUNTIME = YES;

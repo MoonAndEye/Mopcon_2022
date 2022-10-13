@@ -21,7 +21,7 @@ struct ClockCompositionIntro: View {
   }
   
   private func getClockCompositionIntro() -> String {
-    return "一個時鐘的組成，可以拆成\n- 時針、分針、秒針\n- 錶盤\n- 動力來源(真實世界的機芯)"
+    return "一個時鐘的組成，可以拆成\n．時針、分針、秒針\n．錶盤\n．動力來源(真實世界的機芯)"
   }
   
 }

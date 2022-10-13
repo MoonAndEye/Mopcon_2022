@@ -21,7 +21,7 @@ struct GraceCreateFlowMatic: View {
     AnyView(
       VStack(alignment: .leading) {
         Group {
-          Text("那時候寫程式，是人類寫出電腦可理解的語言，全都是0、1組成的編碼，很容易出錯")
+          Text("那時候寫程式，是人類寫出電腦可理解的語言，全都是01組成的編碼，很容易出錯")
           Text("葛麗絲提出開發高級程式語言的想法。讓電腦去理解人類的語言")
           Text("葛麗絲有 COBOL 之母的稱號")
         }
