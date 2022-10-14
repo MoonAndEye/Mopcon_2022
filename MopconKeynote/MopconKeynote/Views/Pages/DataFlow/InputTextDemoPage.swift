@@ -10,7 +10,7 @@ import SwiftUI
 struct InputTextDemoPage: View {
   
   private var width: CGFloat {
-    ScreenSize.shared.width * 0.2
+    ScreenSize.shared.width * 0.13
   }
   
   var body: some View {
