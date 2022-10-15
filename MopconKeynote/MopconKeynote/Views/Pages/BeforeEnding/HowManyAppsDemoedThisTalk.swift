@@ -10,7 +10,7 @@ import SwiftUI
 struct HowManyAppsDemoedThisTalk: View {
   
   private var titleText: String {
-    "請問目前為止，我 Demo 了幾個 Apps?"
+    "請問目前為止，我 Demo 了幾個 SwiftUI Apps?"
   }
   
   var body: some View {

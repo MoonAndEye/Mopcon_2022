@@ -33,6 +33,7 @@ struct LeftTextAndRightImage: View {
             .padding(.top, topPadding)
             .padding(.leading, leadPadding)
             .padding(.trailing, trailingPadding)
+            .minimumScaleFactor(0.5)
           Spacer()
         }
         

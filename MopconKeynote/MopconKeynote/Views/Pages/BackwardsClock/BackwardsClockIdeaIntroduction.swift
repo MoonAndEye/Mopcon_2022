@@ -10,7 +10,7 @@ import SwiftUI
 struct BackwardsClockIdeaIntroduction: View {
   
   var body: some View {
-    LeftTextAndRightImageWithTitle(title: title, text: graceIntrodcution, image: image)
+    LeftTextAndRightImageWithTitle(title: title, textView: graceIntrodcution, image: image)
   }
   
   private var title: String {

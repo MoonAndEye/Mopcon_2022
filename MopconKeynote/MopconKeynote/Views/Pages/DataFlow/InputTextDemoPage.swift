@@ -13,9 +13,13 @@ struct InputTextDemoPage: View {
     ScreenSize.shared.width * 0.13
   }
   
+  private var titleText: String {
+    "以文字輸入框為例"
+  }
+  
   var body: some View {
     
-    TwoViewHAlignment(titleText: "", view0: introductionView, view1: inputViewDemo)
+    TwoViewHAlignment(titleText: titleText, view0: introductionView, view1: inputViewDemo)
   }
   
   private var introductionView: AnyView {
