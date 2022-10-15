@@ -24,6 +24,10 @@
 		9B81677928E8235300416A16 /* StartWithHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81677828E8235300416A16 /* StartWithHand.swift */; };
 		9B81677B28E8252800416A16 /* LeftViewAndRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81677A28E8252800416A16 /* LeftViewAndRightView.swift */; };
 		9B9EAE0028F9001C0022DAB2 /* NotIncludeInThisTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EADFF28F9001C0022DAB2 /* NotIncludeInThisTalk.swift */; };
+		9B9EAE4B28FB0ED50022DAB2 /* OtherDemoApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EAE4A28FB0ED50022DAB2 /* OtherDemoApps.swift */; };
+		9B9EAE4F28FB11080022DAB2 /* TypeLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EAE4E28FB11080022DAB2 /* TypeLogs.swift */; };
+		9B9EAE5128FB112A0022DAB2 /* InfiniteMonkeyTypingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EAE5028FB112A0022DAB2 /* InfiniteMonkeyTypingView.swift */; };
+		9B9EAE5428FB13D40022DAB2 /* TheseusShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EAE5328FB13D40022DAB2 /* TheseusShip.swift */; };
 		9BB0D86B28D4822B00EEB233 /* MopconKeynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */; };
 		9BB0D86F28D4822E00EEB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D86E28D4822E00EEB233 /* Assets.xcassets */; };
 		9BB0D87228D4822E00EEB233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0D87128D4822E00EEB233 /* Preview Assets.xcassets */; };
@@ -82,6 +86,10 @@
 		9B81677828E8235300416A16 /* StartWithHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithHand.swift; sourceTree = "<group>"; };
 		9B81677A28E8252800416A16 /* LeftViewAndRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewAndRightView.swift; sourceTree = "<group>"; };
 		9B9EADFF28F9001C0022DAB2 /* NotIncludeInThisTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotIncludeInThisTalk.swift; sourceTree = "<group>"; };
+		9B9EAE4A28FB0ED50022DAB2 /* OtherDemoApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherDemoApps.swift; sourceTree = "<group>"; };
+		9B9EAE4E28FB11080022DAB2 /* TypeLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeLogs.swift; sourceTree = "<group>"; };
+		9B9EAE5028FB112A0022DAB2 /* InfiniteMonkeyTypingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteMonkeyTypingView.swift; sourceTree = "<group>"; };
+		9B9EAE5328FB13D40022DAB2 /* TheseusShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheseusShip.swift; sourceTree = "<group>"; };
 		9BB0D86728D4822B00EEB233 /* MopconKeynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopconKeynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB0D86A28D4822B00EEB233 /* MopconKeynoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopconKeynoteApp.swift; sourceTree = "<group>"; };
 		9BB0D86E28D4822E00EEB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +146,8 @@
 		9B18F70A28D76088006F0345 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B9EAE5228FB13C80022DAB2 /* Ship */,
+				9B9EAE4C28FB10C90022DAB2 /* Monkeys */,
 				9BC2A68B28EDB3DB002133ED /* Shapes */,
 				9B404B9328D93D4400D9607D /* Template */,
 				9B404B8828D89EA900D9607D /* DemoComponents */,
@@ -234,6 +244,30 @@
 				9BC2A6E528F2857A002133ED /* TwoViewHAlignment.swift */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		9B9EAE4C28FB10C90022DAB2 /* Monkeys */ = {
+			isa = PBXGroup;
+			children = (
+				9B9EAE5028FB112A0022DAB2 /* InfiniteMonkeyTypingView.swift */,
+			);
+			path = Monkeys;
+			sourceTree = "<group>";
+		};
+		9B9EAE4D28FB10FD0022DAB2 /* TypeLogs */ = {
+			isa = PBXGroup;
+			children = (
+				9B9EAE4E28FB11080022DAB2 /* TypeLogs.swift */,
+			);
+			path = TypeLogs;
+			sourceTree = "<group>";
+		};
+		9B9EAE5228FB13C80022DAB2 /* Ship */ = {
+			isa = PBXGroup;
+			children = (
+				9B9EAE5328FB13D40022DAB2 /* TheseusShip.swift */,
+			);
+			path = Ship;
 			sourceTree = "<group>";
 		};
 		9BB0D85E28D4822B00EEB233 = {
@@ -333,6 +367,7 @@
 		9BC2A6EC28F4475C002133ED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9B9EAE4D28FB10FD0022DAB2 /* TypeLogs */,
 				9BC2A6F828F44858002133ED /* Utilities */,
 				9BC2A6ED28F44761002133ED /* Clockwork */,
 			);
@@ -363,6 +398,7 @@
 				9BC2A70928F4914A002133ED /* HowManyAppsDemoedThisTalk.swift */,
 				9B9EADFF28F9001C0022DAB2 /* NotIncludeInThisTalk.swift */,
 				9BC2A70B28F531CF002133ED /* Acknowledgements.swift */,
+				9B9EAE4A28FB0ED50022DAB2 /* OtherDemoApps.swift */,
 			);
 			path = BeforeEnding;
 			sourceTree = "<group>";
@@ -471,6 +507,7 @@
 				9BC2A6F728F44824002133ED /* ClockContainerView.swift in Sources */,
 				9BC2A6D628F11152002133ED /* ListSeparatorInDiffiOS.swift in Sources */,
 				9BC2A70028F44C3E002133ED /* ArcView.swift in Sources */,
+				9B9EAE5428FB13D40022DAB2 /* TheseusShip.swift in Sources */,
 				9BC2A6D828F1124D002133ED /* ThreeViewHAlignment.swift in Sources */,
 				9BC2A6B028EFC7CD002133ED /* SwiftUIDifficults.swift in Sources */,
 				9B404B9028D8AE1F00D9607D /* BackwardsClockIdeaIntroduction.swift in Sources */,
@@ -478,12 +515,15 @@
 				9BD2642A28DBE3E200CB3B43 /* ClockCompositionIntro.swift in Sources */,
 				9BC2A6E228F27A98002133ED /* SegueAfterListSeparator.swift in Sources */,
 				9BC2A68E28EDC531002133ED /* HandShape.swift in Sources */,
+				9B9EAE4F28FB11080022DAB2 /* TypeLogs.swift in Sources */,
+				9B9EAE5128FB112A0022DAB2 /* InfiniteMonkeyTypingView.swift in Sources */,
 				9BC2A70C28F531CF002133ED /* Acknowledgements.swift in Sources */,
 				9B404BBA28D9C1A400D9607D /* LeftTextAndTwoRightImage.swift in Sources */,
 				9B404B8B28D89EC600D9607D /* InputTextDemo.swift in Sources */,
 				9BC2A6B328F00D89002133ED /* DummyPage1.swift in Sources */,
 				9B81677B28E8252800416A16 /* LeftViewAndRightView.swift in Sources */,
 				9B404B8528D8976000D9607D /* OneWayDataFlow.swift in Sources */,
+				9B9EAE4B28FB0ED50022DAB2 /* OtherDemoApps.swift in Sources */,
 				9BC2A6F328F447BC002133ED /* ClockDialView.swift in Sources */,
 				9BC2A6EA28F441D2002133ED /* BobRossDone.swift in Sources */,
 				9BC2A6E428F27E55002133ED /* LotsOfThingIsYouDontKnow.swift in Sources */,

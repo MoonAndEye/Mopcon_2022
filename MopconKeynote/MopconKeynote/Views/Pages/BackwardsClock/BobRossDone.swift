@@ -33,8 +33,11 @@ struct BobRossDone: View {
           let width = geo.size.width
           let height = geo.size.height
           
+          let edge = min(width, height) * 0.8
+          
           ClockContainerView()
-            .frame(width: width, height: height)
+            .frame(width: edge, height: edge)
+            .offset(.init(width: width * 0.1, height: height * 0.5))
           
         }
       }
