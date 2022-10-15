@@ -11,8 +11,6 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
-      /// 致謝頁
-//      Acknowledgements.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// SwiftUI One way data flow 說明
@@ -57,6 +55,10 @@ extension KeynoteView {
       SwiftUIUseCaseOverall.self,
       /// 問大家我 demo 了幾個 app?
       HowManyAppsDemoedThisTalk.self,
+      /// 不在這場 talk 但開發可能會用到的相關功能
+      NotIncludeInThisTalk.self,
+      /// 致謝頁
+      Acknowledgements.self
     ]
   }
 }
@@ -212,6 +214,10 @@ extension KeynoteView {
         case is HowManyAppsDemoedThisTalk.Type:
           /// 問大家我 demo 了幾個 app?
           HowManyAppsDemoedThisTalk()
+          
+        case is NotIncludeInThisTalk.Type:
+          /// 不在這場 talk 但開發可能會用到的相關功能
+          NotIncludeInThisTalk()
           
         case is Acknowledgements.Type:
           /// 致謝頁
