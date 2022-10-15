@@ -21,7 +21,7 @@ struct GraceHopperDefineBugPage: View {
           Text("有一天，通用計算機 Mark II 電腦突然停止運作了")
           Text("葛麗絲的團隊檢查後，發現是一隻飛蛾卡住了開關")
           Text("她將飛蛾貼在紀錄簿上")
-          Text("「發現一隻真正的 bug」")
+          Text("寫下「發現一隻真正的 bug」")
           Text("從此，找錯誤就稱為 debug")
         }
         .padding()

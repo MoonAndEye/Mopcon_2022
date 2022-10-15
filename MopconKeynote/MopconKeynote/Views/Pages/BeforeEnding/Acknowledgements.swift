@@ -17,7 +17,7 @@ struct Acknowledgements: View {
   @State private var animationEnd = false
   
   private var acknowledgementsWords: String {
-    "特別感謝 \n戴铭老師\n13\n波肥\nPaul\n老房東\n在 SwiftUI 練習過程中，給我的靈感和建議。\n這次分享的方式\n靈感來自戴铭老師在 Apple 加速器的分享"
+    "特別感謝 \n戴铭老師\n13\n波肥\nPaul\n老房東\nAppCoda\nPriyans Brahmbhatt\n在 SwiftUI 練習過程中，給我的靈感和建議。\n這次分享的方式\n靈感來自戴铭老師在 Apple 加速器的分享"
   }
   
   var body: some View {
