@@ -11,6 +11,8 @@ extension KeynoteView {
   
   private var pages: [Any] {
     [
+      /// 其他的 demo，但來不及 life coding
+      OtherDemoApps.self,
       /// 開場 Title
       TalkLandingPageView.self,
       /// ChipK promo
@@ -243,6 +245,9 @@ extension KeynoteView {
         case is Acknowledgements.Type:
           /// 致謝頁
           Acknowledgements()
+        case is OtherDemoApps.Type:
+          /// 其他的 demo，但來不及 life coding
+          OtherDemoApps()
         default:
           DummyPage1()
       }
