@@ -19,7 +19,7 @@ struct BackwardsClockIdeaIntroduction: View {
   
   private var graceIntrodcution: AnyView {
     AnyView(
-      VStack {
+      VStack(alignment: .leading) {
         Group {
           Text("這是一本寫給小孩子的童書，描述葛麗絲．霍普的一生")
           Text("葛麗絲這一生所做的事情，和每個寫程式的人，都有一定的關聯")

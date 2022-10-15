@@ -28,7 +28,7 @@ struct TalkLandingPageView: View {
             }
             .multilineTextAlignment(.trailing)
             .padding(.trailing, 50)
-            .padding(.top, 20)
+            .padding(.top, 40)
           }
         }
         .font(.system(size: MKFontSize.landingBodySize, weight: .medium))

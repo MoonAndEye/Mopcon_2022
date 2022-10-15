@@ -46,7 +46,7 @@ struct InputTextDemoPage: View {
         InputTextDemo()
           .frame(width: width)
           .border(.black, width: 1.0)
-          .padding(.horizontal,30)
+          .padding(.horizontal, 5)
       }
     )
   }

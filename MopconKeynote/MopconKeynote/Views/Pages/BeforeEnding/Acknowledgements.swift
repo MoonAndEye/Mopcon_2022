@@ -11,24 +11,33 @@ import SwiftUI
 struct Acknowledgements: View {
   
   private let duration: Double = 5.0
+  private let endAnimationDuration: Double = 1.5
   
   @State private var animationStart = false
+  @State private var animationEnd = false
   
   private var acknowledgementsWords: String {
-    "特別感謝 \n戴铭老師\n13\n波肥\nPaul\n老房東\n在 SwiftUI 練習過程中，給我的靈感和建議。"
+    "特別感謝 \n戴铭老師\n13\n波肥\nPaul\n老房東\n在 SwiftUI 練習過程中，給我的靈感和建議。\n這次分享的方式\n靈感來自戴铭老師在 Apple 加速器的分享"
   }
   
   var body: some View {
     VStack {
-      Spacer()
-      plainView
-        .transition(.offset(.init(width: 0, height: 0)))
-        .animation(.default, value: animationStart)
-    }
-    .onAppear {
-      withAnimation {
-        self.animationStart.toggle()
+      Button {
+        animationStart.toggle()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + duration) {
+          animationEnd.toggle()
+        }
+      } label: {
+        Text("致謝")
       }
+
+      Spacer()
+      
+      starWarEffectView
+        .padding()
+        .frame(width: 1440, height: animationStart ? 900 : 0)
+        .animation(.linear(duration: animationEnd ? endAnimationDuration : duration), value: animationStart)
     }
   }
   
@@ -45,7 +54,6 @@ struct Acknowledgements: View {
       .font(.system(size: MKFontSize.textTitle, weight: .bold))
       .multilineTextAlignment(.center)
       .lineSpacing(10)
-      .padding()
       .rotation3DEffect(.degrees(60), axis: (x: 1, y: 0, z: 0))
   }
 }

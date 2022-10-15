@@ -23,10 +23,21 @@ struct BobRossDone: View {
     AnyView(
       VStack {
         Spacer()
-        ClockContainerView()
+        Image("WhiteBackgroundWithBezel")
+          .resizable()
+          .aspectRatio(contentMode: .fit)
         Spacer()
+      }.overlay { GeometryReader
+        { geo in
+          
+          let width = geo.size.width
+          let height = geo.size.height
+          
+          ClockContainerView()
+            .frame(width: width, height: height)
+          
+        }
       }
-      
     )
   }
   
