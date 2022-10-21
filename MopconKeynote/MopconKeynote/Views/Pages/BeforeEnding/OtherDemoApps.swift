@@ -40,6 +40,21 @@ struct OtherDemoApps: View {
   
   var body: some View {
     TwoViewHAlignment(titleText: titleText, view0: monkeyView, view1: theseusShipView)
+      .overlay {
+        GeometryReader { geo in
+          
+          let qrWidth: CGFloat = 150
+          let qrHeight: CGFloat = 150
+          
+          let width = geo.size.width - qrWidth - 30
+          
+          Image("mopcon_github_repo")
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: qrWidth, height: qrHeight)
+            .offset(.init(width: width, height: 0))
+        }
+      }
   }
 }
 
