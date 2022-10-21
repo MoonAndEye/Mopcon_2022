@@ -15,6 +15,7 @@ extension KeynoteView {
       TalkLandingPageView.self,
       /// ChipK promo
       PromoChipK.self,
+      TalkLandingPageView.self,
       /// Forum promo
       PromoForum.self,
       /// SwiftUI One way data flow 說明
